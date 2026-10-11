@@ -1031,15 +1031,6 @@ body { background: #000; }
           </div>
         </div>
 
-        <div class="rumor-card" id="rumor-banner" role="button" tabindex="0" aria-expanded="false" title="Tap for full tip">
-          <span class="rumor-ico" aria-hidden="true">📡</span>
-          <div class="rumor-body">
-            <div class="rumor-short" id="ui-rumor-short">Street tip loading…</div>
-            <div class="rumor-full" id="ui-rumor-full"></div>
-          </div>
-          <span class="rumor-chev" aria-hidden="true">▼</span>
-        </div>
-
         <div class="action-grid">
           <button type="button" class="action-tile green" data-goto="deal">
             <span class="tile-ico">📦</span>
@@ -1800,17 +1791,6 @@ body { background: #000; }
     if (dot) dot.classList.toggle('on', tier === 'hot' || tier === 'fire');
 
     if (!state.rumor) generateRumor();
-    const banner = $('rumor-banner');
-    const r = state.rumor;
-    $('ui-rumor-short').textContent = r ? r.short : 'No tip today';
-    $('ui-rumor-full').textContent = r ? r.full : '';
-    if (state.rumorExpanded) {
-      banner.classList.add('expanded');
-      banner.setAttribute('aria-expanded', 'true');
-    } else {
-      banner.classList.remove('expanded');
-      banner.setAttribute('aria-expanded', 'false');
-    }
 
     const dealLoc = $('ui-deal-loc');
     if (dealLoc) dealLoc.textContent = state.location + ' · Day ' + state.day;
@@ -2860,6 +2840,52 @@ body { background: #000; }
     $('modal-cancel').onclick = closeModal;
   }
 
+  // Paid street tips: 1-5% of net worth, price fixed per day, one purchase unlocks that day's tip
+  function tipPriceToday() {
+    if (!state.tipQuote || state.tipQuote.day !== state.day) {
+      const pct = 1 + Math.random() * 4;
+      const nw = Math.max(0, netWorth(state));
+      state.tipQuote = { day: state.day, pct: pct, price: Math.max(10, Math.round(nw * pct / 100)) };
+      save();
+    }
+    return state.tipQuote;
+  }
+
+  function showTip() {
+    if (!state.rumor) generateRumor();
+    const r = state.rumor;
+    openModal('📡 Street Tip',
+      '<div class="event-icon">📡</div><div class="event-text" id="tip-short" style="font-weight:700"></div><div class="event-text" id="tip-full" style="color:var(--text-dim)"></div><p class="hint">Tips are right most of the time. Most.</p>',
+      '<button type="button" class="primary block" id="modal-cancel">Got it</button>'
+    );
+    $('tip-short').textContent = r ? r.short : 'Nothing on the wire today.';
+    $('tip-full').textContent = r ? r.full : '';
+    $('modal-cancel').onclick = closeModal;
+  }
+
+  function openTips() {
+    if (!state) return;
+    if (state.tipBoughtDay === state.day) { showTip(); return; }
+    const q = tipPriceToday();
+    const canPay = state.cash >= q.price;
+    openModal('📡 Buy a Tip?',
+      '<div class="event-icon">🕵️</div><div class="event-text">A guy in a trench coat says he knows something. His price today: <strong>' + fmt(q.price) + '</strong> (' + q.pct.toFixed(1) + '% of your net worth).</div>' +
+      (canPay ? '' : '<p class="hint" style="color:var(--danger)">You don\'t have enough cash on you.</p>'),
+      '<button type="button" class="ghost" id="modal-cancel">No thanks</button><button type="button" class="primary" id="tip-buy"' + (canPay ? '' : ' disabled') + '>Pay ' + fmt(q.price) + '</button>'
+,
+      'row'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('tip-buy').onclick = () => {
+      if (state.cash < q.price) return;
+      state.cash -= q.price;
+      state.tipBoughtDay = state.day;
+      save();
+      renderMarket();
+      showTip();
+    };
+  }
+
   function openHowTo() {
     openModal('How to Play',
       '<p class="event-text">' +
@@ -3423,21 +3449,6 @@ body { background: #000; }
     if (howGame) howGame.onclick = openHowTo;
     $('btn-scores-back').onclick = () => showScreen(scoresReturnScreen === 'end' ? 'end' : 'title');
 
-    function toggleRumorBanner() {
-      if (!state || !state.rumor) return;
-      state.rumorExpanded = !state.rumorExpanded;
-      save();
-      const banner = $('rumor-banner');
-      banner.classList.toggle('expanded', state.rumorExpanded);
-      banner.setAttribute('aria-expanded', state.rumorExpanded ? 'true' : 'false');
-    }
-    $('rumor-banner').onclick = toggleRumorBanner;
-    $('rumor-banner').onkeydown = (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        toggleRumorBanner();
-      }
-    };
 
     document.querySelectorAll('.top-tab').forEach(btn => {
       btn.onclick = () => setTab(btn.getAttribute('data-tab'));
@@ -3455,14 +3466,7 @@ body { background: #000; }
     const tileCash = $('btn-tile-cashout');
     if (tileCash) tileCash.onclick = confirmCashOut;
     const cityEvent = $('btn-city-event');
-    if (cityEvent) cityEvent.onclick = () => {
-      if (!state || !state.rumor) return;
-      state.rumorExpanded = true;
-      save();
-      renderMarket();
-      const b = $('rumor-banner');
-      if (b) b.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-    };
+    if (cityEvent) cityEvent.onclick = openTips;
     const jetBronx = $('btn-jet-bronx');
     if (jetBronx) jetBronx.onclick = () => {
       if (state && state.location !== HOME) openTravel();
