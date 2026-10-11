@@ -1,0 +1,3471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Street Hustle">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="Street Hustle">
+<meta name="theme-color" content="#0d0d0f">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAF30lEQVR42u3dz4uVVRgH8Jn8NU53cKZGkbRBRVFnISMRhRRB6WKgSINAxfoDomUItZq1tJZo2aKEFmoIA2UrXQSFiRAahMqgLnRKY+4448x4pz/gPcHxnvfMfe+9n8/ycN/7/vrO4Tw8932nd/TU6HIPdIjnXAIEGgQaBBqeyerQ4M2Jmcoc4Mfnpwpj37w/0rE3pNvON8WOiQEzNJYcINAg0JCjKJx/vFAYu3rn58LY2NZ3sh/g14c2d9UNqdL5tuqem6FBoBFoEGhocVHY/3x/YezA7veiPtcprt39qTC2b8uhrgpH6J7fu3c++3537jpmhgaBRqBBoKGVReHj2YWOOLnjZ/8qjH17ZGdcYTL4lnQE1OvzhbGpqRtNf9/IyJ6E/K03Q2PJAQINAg05isJayR3Aq3cnC2NjW8azn9wPJ/ZlP7eqK/va12p9UWPT09OFseHh4bjvS7hHZmgsOUCgQaChhKJwdvZJqTvZNfh211/oY2f/LIx9d2R39v2Wfe1DncLQWF9frelt4/O3xgyNJQcINAg05CgKB2r9rkzJLny0vyOuc6izNzo6Vuo+Uq6LGRpLDhBoEGgooSicrS+4MgS9/NLxCh1NnxkaSw4QaBBoyFEUDgzoFNIOGmZoLDlAoEGgIUdRqFNYfatezH+Pnv69tu3ia4bGkgMEGgQaSigKdQrbYCaqFeeiB2NfNv19G69+VhhrLPRV/CosmKGx5ACBBoGGHEVhvf6kc/+CX5hryX4b/6wv9zzWFt/auf7yp+Uec7234nez1wyNJQcINAg05CgKO/nto7215cLY+K1XS93H5PZfC2PLC/3Zz+PBxTcKYxsPXm76c2Ufc/nmzNBYcoBAg0BDjqJwdjbhebWhmfxH/XCg+W0DHbbvN17Kf8yza8r9vlCn8PWLUZvGfq70YzZDg0Aj0CDQ0B5FYUqncLm22PS2h89cL4ydO7q3MNa7WO7xxe43Rcoxt+o8Sj/moX+zz8dmaCw5QKBBoOEZ1/2jp0YLv0O8/fm6pr+wMfQw/1/hw6FKH1/HzHYJ1zn22sf+lDVkx8l+MzSWHCDQINCQ6H/ePtr8S1Ge1uaaXvjHfm7VUrnHF6vsTlxKQZQier+1sl/KU3yb6fbDvxV3W2v+radmaCw5QKBBoOHZBDuFN089rnYl+2i46W2XBqcrcx7z07fjSqnhbZU55pX4qW3sfq9decUMjSUHCDQINOQoCu+fbpS6k7I7hWsebWr6WBYH7ze935SCaPr2jVKv6fC2Pdmvc9Vt+sQzhVhygECDQEOWorDqncJ2dGHicKnf9+7EueY33hrXLR2/NF4Ym3xzMm4fd+K6uSmF7Gs/XjFDY8kBAg0CDYmCzxSeuHCrMJbyE8HYDltKJ24ltk3ZR8pzcrHfF318gW1DBWDIh78fiSsUI8839pnC0Od0CrHkAIEGgYZ0OoUZDK8uFjUjW/eUuo+pO8Wfo04vzcdtnNApDAkWhTqFYMkBAo1AQ1sIdgrnfjkYtVCPtRLPsKXsI+WZwssn9kftI9T9ChV2IaGCMvR9tcDbPYOFYkKnMFQABrugOoVgyQECjUBDW9ApTBTqCsa6fqbYTdt7tNy3owaLwkCnMLYojC0UYzuFKT/d9fZRLDlAoEGgIVNR+McHBwofrNT/z6vQflOKwpUQWxSGrMSLZlLoFGLJAQINAg2ZikKdwnidXBQmKfmZwpAdJ/vN0FhygECDQEMibx9NPI/YZwpbZX4pcB5fzWS/Vj21uI/FPlNohsaSAwQaBBry0CnMoFXdw+i3jyao0k98vX0USw4QaBBoyFQU3j/dcGUqXgBWqVBsFc8UYskBAg0CDemCPx9tPJpxZSLVq10T9jTmO/lebjBDY8kBAg0CDTmKwpRnurrPYqWPrtvupRkagQaBBoGGEorCen3elaHyaj3rzNBYcoBAg0BDjqJQpxAzNAg0CDQINF1cFOoU0g50CrHkAIEGgYZMReHmLza4MpihQaBBoEGg6QL/AfygwO4uu097AAAAAElFTkSuQmCC">
+<link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADKklEQVR42sVXQUgUURj+xtaaHd+S1iiSq2Qk5hzCpaAQu5QeFhTXINCoTnaJjp06xJ730DGiLhFBQgcVBCG3Q+ihg2yyENrFZFmFci1jnzquutvhOc95M7PjrGzsD2/3vf//53/ffP///rcraTGtgAqKDwCWollH44OJFN4OtHgKVIqvIReiAQZA38phPv0JncFbgsOr3kbPwYr5OsW1MaDUKOhq74dSoxy5UXJlGpebej0D62rvx+rqhKC72DbM51Xsw8dHcmVaWFtHZ1PY1e4UAwBSqUUkErMw78cZ2Nzc4Yjaam+WlMfhse94P9gu6KwxKNVBqQ5ZJqBUN+1XzQAEiHLsKp68HzryeUJkaFonX5v9GQM091+PWvO5u0Us8gEDAaVCXSBffgZOnBVj7a+fdG1DZWdgvfs5n9fPP0E+J7t45xgASnc8Ba86s20n8bdfWPtnH4t2KrlElBiAKsl3qKuztOU/AXdQ5mdLtu/bj2GB7AIAIqMLGB/qgLRrtwnvsCumb2AyifGhjqL2Qt1fMzx7EeardQDAu75W5kL9NpsgFp3xHN+Ciin6+fkq6ntYR2yAwlpxIODnY/tLDwiR+bfZRogMQmTcm/zB52ZfJ53SvC2M1sgc9wEASYtphaXYVvGDsqHy+V5txtFHzyyztqKed7Qb6bTqkokrjAEn5JwBovDhxICxuQHE+jwhMuIjIRtD8ZGQNwaOvAuiEWHdFx1nkyBjKzwTxtSNKaZLq1iLd6O+ZxZr8W5c+5hgDJjfyJg76Yqti9nufB0UvgmReQ20RuYOL6PX6kMc4OZzc87MdkNUHyuiZ2+WkUovAgBagpeQSodsLHEGnFrRcVNgAACAhVEVHUOHBZrZ04FgBuGZsAgirfKCNIpQ0mJa4dvtLn42DTFy5QWAVQwATjVgloZHB43Ifz1uC+KkE25ylw5L93SAsgb1ITRmMujCi/FGVM4i5D4vsyAbQXGYitBzI/JaBwL9FnFKp3EMJS2mFX69yJdlczcQTsJrIL+RLRkAdfmdkde9xjsN33E74JaeRTnEZ9wFFf1zSqlekc0JTjEAjU9PV4yBf8ujT/AuJP0zAAAAAElFTkSuQmCC">
+<link rel="icon" type="image/png" sizes="192x192" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAGG0lEQVR42u3d74sUZQAH8L38dV57eFerSNqhoqj3Qk4iCimC0hcHRRoEKtofEL0MoV7da+m1RC97UUIv1BAOyl7pi6AwEUKDUDnUF7qlcXveenfu9b55FmZ6duZ2dz6flw8z+zwzs9999pl5ZmZg/PT4cgVK6jm7AAEAAQABgFJZHSq8NTXblY396MJMouzr98dKc7DKvv2xdkwN6wFAAEAAQAAQACiv4Fmg5pOF4MLX7v6UKJvY+k5hjf3q0OZSH6xu3P6V/k7oAUAAQABAACB6EDz0/FBw4QO730u9bD+6fu/HRNm+LYdK/QUKfSfu379QWP07dx3TA4AAgACAAEDcIPjJ3EJfbuzxc38myr45sjP9gGvkLd+YFBqNZrB8ZuZm1OeOje2J/K6u1wOAAIAAgAAgAFBewbNA1ZymN1y7N50om9gyWdjGfn9iX2Hb2ivyOCbV6mDq8nq9niir1Wqp1489fnoA/AUCAQABAIPgytzc01wq2zXytj3+H8fO/ZEo+/bI7sLqz+OYtJsKESofHKxGrZ/tu7pGDwACAAIAAoBBcNJwdcieKcjFk/v7bv+3uxI8Pj7R8bpi95UeAH+BQABAAEAAoDTCUyEaC/YM/9vLLx3v0pYN6gFAAEAAQAAwCE4aHjYVgn7U0gOAAIAAgABgEJzkSnBvW/Viccfv2V9re/rrrgfAXyAQABAAEAAoDVMh+vFXrRr+XXs48UXU52689mmirLUw2EN7ZkEPAAIAAgACgEFwUqPxtDy/AC/Mr2j9rb/Xd36b1oafr7/+yiedb39joIeO9oAeAAQABAAEAIPgpDK9H2Cgupwom7z9ai51TW//JVG2vDBUyDZVKpXKw0tvJMo2HrySarl2y+bR/vzM6wFAAEAAQAAQACiv8FMh5iKfKjA6W9wWPBqOWz8wbeC7jZeLa//cms5/ZrupEK9fSrV62uVya78eAAQABAAEAIocBMdOhViuLkatf/jsjWD5+aN7E2UDi51va5b6Y8W2P8v+D21X7Dbl0v7Rfwr7vdcD4C8QCAAIAJTLwPjp8cTk8TufrYv60Nboo+IS/Gi0Z9ral7+gkfs/yzFJez9DOztODekBQABAAEAAEAAorzbvB4h7XN+z6nzUKD7LUwlWLeXT1rTymF6QZfvzkKn+ah6Plgy/c2D74V+T1Vfj3k+gB8BfIBAAEAAol+BUiFunn/TOKP5xLWr9pZF6121Ts34n/XCxtq3r2l/k/RRZ6r9+9RU9AAgACAAIAAbByUHwgzOtXCrL40rwmsebotq0OPIgqv7YK8H1Ozc7vp9r2/YUtv97yaaP3RQPAgACAAKAAECJ9fxUiF53cepwxz/z3anzcR+wNf30kMnLk4my6Ten09d1N/1UltizWK/9cFUPAAIAAgACQMkFb4o/cfF2cOHY+dxppw3Ezicvcv3YqRCxN3Vn+czUbW2zfmjAG/Lhb0eC5cHBcYbtT3tTfGi5SsVUCBAAEAAQAHAluFC11ckB29jWPR2vZ+Zu+B6D+lIz3QdEXgluJzgIdiUY/AUCAQABAAGAYgSnQsz/fDC4cOxTAWLf8hdTT5a6Yp8KceXE/tRtDV3Kb3cWJyR0FqndVIhq4Ln7wTNDkVMh2t0PEGyXqRDgLxAIAAgAFMhUiByEpjxkceNseHrA3qOdf5dBcBDcZipElmkPqQfHGaZCxN5P4v0AIAAgACAAEBwE//7BgeDCXfmm8i6sP3YQXKQsg+C0A+O8ngwXy5VgEAAQABAAEABKzVSIHJTpLFC0HJ4K0c6OU0N6ABAAEAAQAErO+wEixd4Uv9KaS4Ft+nK2sP1XqaZfNO1N8XoAEAAQABAAaMeV4AKt9BXi1O8HiNSt93N4PwAIAAgACAAIAKUWPAv04EzLnonQ8/cD9ClPhQABAAEAAYDg/QCtx7P2TIRG74yBK61mmY71Bj0ACAAIAAgABsFJsTcas9gzLS37sdYDIAAgACAAIABQGsGzQI1G056h71Qr6/QAIAAgACAAGAQHBgumQqAHAAEAAQABgLIMgl0Jph+5EgwCAAIAAgACQKkFzwJt/nyDPYMeAAQABAAEAPrOv/dSwQZa+nqOAAAAAElFTkSuQmCC">
+<link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22Street%20Hustle%22%2C%22short_name%22%3A%22Street%20Hustle%22%2C%22description%22%3A%22Fictional%20arcade%20trading%20sim%20inspired%20by%20classic%20Drug%20Wars.%20Buy%20low%2C%20sell%20high%2C%20dodge%20pixel%20cops.%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22orientation%22%3A%22portrait%22%2C%22background_color%22%3A%22%230a0e0a%22%2C%22theme_color%22%3A%22%230a0e0a%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAGG0lEQVR42u3d74sUZQAH8L38dV57eFerSNqhoqj3Qk4iCimC0hcHRRoEKtofEL0MoV7da%2Bm1RC97UUIv1BAOyl7pi6AwEUKDUDnUF7qlcXveenfu9b55FmZ6duZ2dz6flw8z%2Bzwzs9999pl5ZmZg%2FPT4cgVK6jm7AAEAAQABgFJZHSq8NTXblY396MJMouzr98dKc7DKvv2xdkwN6wFAAEAAQAAQACiv4Fmg5pOF4MLX7v6UKJvY%2Bk5hjf3q0OZSH6xu3P6V%2Fk7oAUAAQABAACB6EDz0%2FFBw4QO730u9bD%2B6fu%2FHRNm%2BLYdK%2FQUKfSfu379QWP07dx3TA4AAgACAAEDcIPjJ3EJfbuzxc38myr45sjP9gGvkLd%2BYFBqNZrB8ZuZm1OeOje2J%2FK6u1wOAAIAAgAAgAFBewbNA1ZymN1y7N50om9gyWdjGfn9iX2Hb2ivyOCbV6mDq8nq9niir1Wqp1489fnoA%2FAUCAQABAIPgytzc01wq2zXytj3%2BH8fO%2FZEo%2B%2FbI7sLqz%2BOYtJsKESofHKxGrZ%2Ftu7pGDwACAAIAAoBBcNJwdcieKcjFk%2Fv7bv%2B3uxI8Pj7R8bpi95UeAH%2BBQABAAEAAoDTCUyEaC%2FYM%2F9vLLx3v0pYN6gFAAEAAQAAwCE4aHjYVgn7U0gOAAIAAgABgEJzkSnBvW%2FViccfv2V9re%2FrrrgfAXyAQABAAEAAoDVMh%2BvFXrRr%2BXXs48UXU52689mmirLUw2EN7ZkEPAAIAAgACgEFwUqPxtDy%2FAC%2FMr2j9rb%2FXd36b1oafr7%2F%2Byiedb39joIeO9oAeAAQABAAEAIPgpDK9H2Cgupwom7z9ai51TW%2F%2FJVG2vDBUyDZVKpXKw0tvJMo2HrySarl2y%2BbR%2FvzM6wFAAEAAQAAQACiv8FMh5iKfKjA6W9wWPBqOWz8wbeC7jZeLa%2F%2Fcms5%2FZrupEK9fSrV62uVya78eAAQABAAEAIocBMdOhViuLkatf%2FjsjWD5%2BaN7E2UDi51va5b6Y8W2P8v%2BD21X7Dbl0v7Rfwr7vdcD4C8QCAAIAJTLwPjp8cTk8TufrYv60Nboo%2BIS%2FGi0Z9ral7%2Bgkfs%2FyzFJez9DOztODekBQABAAEAAEAAorzbvB4h7XN%2Bz6nzUKD7LUwlWLeXT1rTymF6QZfvzkKn%2Bah6Plgy%2Fc2D74V%2BT1Vfj3k%2BgB8BfIBAAEAAol%2BBUiFunn%2FTOKP5xLWr9pZF6121Ts34n%2FXCxtq3r2l%2Fk%2FRRZ6r9%2B9RU9AAgACAAIAAbByUHwgzOtXCrL40rwmsebotq0OPIgqv7YK8H1Ozc7vp9r2%2FYUtv97yaaP3RQPAgACAAKAAECJ9fxUiF53cepwxz%2Fz3anzcR%2BwNf30kMnLk4my6Ten09d1N%2F1UltizWK%2F9cFUPAAIAAgACQMkFb4o%2FcfF2cOHY%2Bdxppw3Ezicvcv3YqRCxN3Vn%2BczUbW2zfmjAG%2FLhb0eC5cHBcYbtT3tTfGi5SsVUCBAAEAAQAHAluFC11ckB29jWPR2vZ%2BZu%2BB6D%2BlIz3QdEXgluJzgIdiUY%2FAUCAQABAAGAYgSnQsz%2FfDC4cOxTAWLf8hdTT5a6Yp8KceXE%2FtRtDV3Kb3cWJyR0FqndVIhq4Ln7wTNDkVMh2t0PEGyXqRDgLxAIAAgAFMhUiByEpjxkceNseHrA3qOdf5dBcBDcZipElmkPqQfHGaZCxN5P4v0AIAAgACAAEBwE%2F%2F7BgeDCXfmm8i6sP3YQXKQsg%2BC0A%2BO8ngwXy5VgEAAQABAAEABKzVSIHJTpLFC0HJ4K0c6OU0N6ABAAEAAQAErO%2BwEixd4Uv9KaS4Ft%2BnK2sP1XqaZfNO1N8XoAEAAQABAAaMeV4AKt9BXi1O8HiNSt93N4PwAIAAgACAAIAKUWPAv04EzLnonQ8%2FcD9ClPhQABAAEAAYDg%2FQCtx7P2TIRG74yBK61mmY71Bj0ACAAIAAgABsFJsTcas9gzLS37sdYDIAAgACAAIABQGsGzQI1G056h71Qr6%2FQAIAAgACAAGAQHBgumQqAHAAEAAQABgLIMgl0Jph%2B5EgwCAAIAAgACQKkFzwJt%2FnyDPYMeAAQABAAEAPrOv%2FdSwQZa%2BnqOAAAAAElFTkSuQmCC%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22any%20maskable%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAF30lEQVR42u3dz4uVVRgH8Jn8NU53cKZGkbRBRVFnISMRhRRB6WKgSINAxfoDomUItZq1tJZo2aKEFmoIA2UrXQSFiRAahMqgLnRKY%2B4448x4pz%2FgPcHxnvfMfe%2B9n8%2FycN%2F7%2FvrO4Tw8932nd%2FTU6HIPdIjnXAIEGgQaBBqeyerQ4M2Jmcoc4Mfnpwpj37w%2F0rE3pNvON8WOiQEzNJYcINAg0JCjKJx%2FvFAYu3rn58LY2NZ3sh%2Fg14c2d9UNqdL5tuqem6FBoBFoEGhocVHY%2F3x%2FYezA7veiPtcprt39qTC2b8uhrgpH6J7fu3c%2B%2B3537jpmhgaBRqBBoKGVReHj2YWOOLnjZ%2F8qjH17ZGdcYTL4lnQE1OvzhbGpqRtNf9%2FIyJ6E%2FK03Q2PJAQINAg05isJayR3Aq3cnC2NjW8azn9wPJ%2FZlP7eqK%2Fva12p9UWPT09OFseHh4bjvS7hHZmgsOUCgQaChhKJwdvZJqTvZNfh211%2FoY2f%2FLIx9d2R39v2Wfe1DncLQWF9frelt4%2FO3xgyNJQcINAg05CgKB2r9rkzJLny0vyOuc6izNzo6Vuo%2BUq6LGRpLDhBoEGgooSicrS%2B4MgS9%2FNLxCh1NnxkaSw4QaBBoyFEUDgzoFNIOGmZoLDlAoEGgIUdRqFNYfatezH%2BPnv69tu3ia4bGkgMEGgQaSigKdQrbYCaqFeeiB2NfNv19G69%2BVhhrLPRV%2FCosmKGx5ACBBoGGHEVhvf6kc%2F%2BCX5hryX4b%2F6wv9zzWFt%2Fauf7yp%2BUec7234nez1wyNJQcINAg05CgKO%2Fnto7215cLY%2BK1XS93H5PZfC2PLC%2F3Zz%2BPBxTcKYxsPXm76c2Ufc%2FnmzNBYcoBAg0BDjqJwdjbhebWhmfxH%2FXCg%2BW0DHbbvN17Kf8yza8r9vlCn8PWLUZvGfq70YzZDg0Aj0CDQ0B5FYUqncLm22PS2h89cL4ydO7q3MNa7WO7xxe43Rcoxt%2Bo8Sj%2FmoX%2Bzz8dmaCw5QKBBoOEZ1%2F2jp0YLv0O8%2Ffm6pr%2BwMfQw%2F1%2Fhw6FKH1%2FHzHYJ1zn22sf%2BlDVkx8l%2BMzSWHCDQINCQ6H%2FePtr8S1Ge1uaaXvjHfm7VUrnHF6vsTlxKQZQier%2B1sl%2FKU3yb6fbDvxV3W2v%2BradmaCw5QKBBoOHZBDuFN089rnYl%2B2i46W2XBqcrcx7z07fjSqnhbZU55pX4qW3sfq9decUMjSUHCDQINOQoCu%2BfbpS6k7I7hWsebWr6WBYH7ze935SCaPr2jVKv6fC2Pdmvc9Vt%2BsQzhVhygECDQEOWorDqncJ2dGHicKnf9%2B7EueY33hrXLR2%2FNF4Ym3xzMm4fd%2BK6uSmF7Gs%2FXjFDY8kBAg0CDYmCzxSeuHCrMJbyE8HYDltKJ24ltk3ZR8pzcrHfF318gW1DBWDIh78fiSsUI8839pnC0Od0CrHkAIEGgYZ0OoUZDK8uFjUjW%2FeUuo%2BpO8Wfo04vzcdtnNApDAkWhTqFYMkBAo1AQ1sIdgrnfjkYtVCPtRLPsKXsI%2BWZwssn9kftI9T9ChV2IaGCMvR9tcDbPYOFYkKnMFQABrugOoVgyQECjUBDW9ApTBTqCsa6fqbYTdt7tNy3owaLwkCnMLYojC0UYzuFKT%2Fd9fZRLDlAoEGgIVNR%2BMcHBwofrNT%2Fz6vQflOKwpUQWxSGrMSLZlLoFGLJAQINAg2ZikKdwnidXBQmKfmZwpAdJ%2FvN0FhygECDQEMibx9NPI%2FYZwpbZX4pcB5fzWS%2FVj21uI%2FFPlNohsaSAwQaBBry0CnMoFXdw%2Bi3jyao0k98vX0USw4QaBBoyFQU3j%2FdcGUqXgBWqVBsFc8UYskBAg0CDemCPx9tPJpxZSLVq10T9jTmO%2FlebjBDY8kBAg0CDTmKwpRnurrPYqWPrtvupRkagQaBBoGGEorCen3elaHyaj3rzNBYcoBAg0BDjqJQpxAzNAg0CDQINF1cFOoU0g50CrHkAIEGgYZMReHmLza4MpihQaBBoEGg6QL%2FAfygwO4uu097AAAAAElFTkSuQmCC%22%2C%22sizes%22%3A%22180x180%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22any%22%7D%5D%7D">
+<meta name="description" content="Street Hustle — a tongue-in-cheek fictional trading sim inspired by classic Drug Wars (John E. Dell, 1984). Pure arcade fun, offline.">
+<meta name="format-detection" content="telephone=no">
+<title>Street Hustle — Drug Wars Clone</title>
+<style>
+:root {
+  --bg: #0d0d0f;
+  --bg2: #121214;
+  --panel: rgba(28, 28, 32, 0.85);
+  --panel-solid: #1c1c20;
+  --panel2: #242428;
+  --glass: rgba(255,255,255,0.04);
+  --border: rgba(255,255,255,0.08);
+  --border-hi: rgba(255,255,255,0.14);
+  --text: #f0f0f2;
+  --text-dim: #8a8a96;
+  --accent: #3dff7a;
+  --accent-dim: #1a8a45;
+  --accent-glow: rgba(61,255,122,0.25);
+  --warn: #ffb84d;
+  --danger: #ff4d6a;
+  --info: #4da6ff;
+  --purple: #b366ff;
+  --orange: #ff9944;
+  --gold: #f5c842;
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --safe-t: env(safe-area-inset-top, 0px);
+  --safe-b: env(safe-area-inset-bottom, 0px);
+  --safe-l: env(safe-area-inset-left, 0px);
+  --safe-r: env(safe-area-inset-right, 0px);
+  --radius: 14px;
+  --radius-sm: 10px;
+  --tap: 48px;
+  --header-h: 56px;
+  --tab-h: 52px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.4;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior: none;
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding: var(--safe-t) var(--safe-r) var(--safe-b) var(--safe-l);
+  max-width: 480px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+  background:
+    radial-gradient(ellipse 80% 40% at 50% -10%, rgba(61,255,122,0.06), transparent 60%),
+    var(--bg);
+}
+
+.screen {
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: 12px;
+  overflow: hidden;
+}
+.screen.active { display: flex; }
+
+h1, h2, h3 { font-weight: 700; letter-spacing: 0.02em; }
+h1 { font-size: 1.7rem; color: var(--text); font-style: italic; }
+h2 { font-size: 1.15rem; color: var(--text); }
+h3 {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+}
+
+.tagline { color: var(--text-dim); font-size: 0.8rem; margin-top: 4px; }
+
+.panel, .glass {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  min-height: 0;
+  padding-bottom: 8px;
+}
+
+/* —— Buttons —— */
+button, .btn {
+  appearance: none;
+  border: 1px solid var(--border-hi);
+  background: var(--panel2);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  font-weight: 600;
+  min-height: var(--tap);
+  min-width: var(--tap);
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.08s, background 0.15s, border-color 0.15s, box-shadow 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+}
+button:active, .btn:active { transform: scale(0.96); }
+button:disabled, .btn:disabled { opacity: 0.35; pointer-events: none; }
+button.primary {
+  background: linear-gradient(180deg, #2ecc6a, #1a9a48);
+  border-color: rgba(61,255,122,0.5);
+  color: #0a1a0e;
+  box-shadow: 0 0 16px var(--accent-glow);
+  font-weight: 800;
+}
+button.danger { border-color: var(--danger); color: var(--danger); }
+button.warn { border-color: var(--warn); color: var(--warn); }
+button.ghost {
+  background: transparent;
+  border-color: var(--border);
+  color: var(--text-dim);
+}
+button.sm { min-height: 42px; min-width: 42px; padding: 8px 12px; font-size: 0.82rem; }
+button.block { width: 100%; display: block; }
+
+/* —— Title screen —— */
+#screen-title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 14px;
+  padding: 24px 16px;
+  position: relative;
+}
+.title-logo {
+  width: 64px; height: 64px;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #2a2418, #1a1510);
+  border: 1px solid rgba(245,200,66,0.45);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.8rem;
+  box-shadow: 0 0 24px rgba(245,200,66,0.25);
+  margin-bottom: 4px;
+}
+#screen-title h1 {
+  background: linear-gradient(90deg, #fff, var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  letter-spacing: 0.04em;
+}
+.title-btns {
+  display: flex; flex-direction: column; gap: 10px;
+  width: 100%; max-width: 280px; margin-top: 8px;
+}
+.disclaimer {
+  font-size: 0.68rem; color: var(--text-dim);
+  max-width: 340px; margin-top: 6px; opacity: 0.8;
+}
+.blurb {
+  font-size: 0.8rem; color: var(--text);
+  max-width: 340px; background: var(--panel);
+  border: 1px solid var(--border); border-radius: 12px;
+  padding: 12px 14px; text-align: left; line-height: 1.45;
+}
+.blurb strong { color: var(--accent); }
+.mute-fab {
+  position: absolute; top: 10px; right: 10px; z-index: 5;
+  min-width: 44px; min-height: 44px; border-radius: 12px;
+  border: 1px solid var(--border); background: var(--panel);
+  color: var(--text); font-size: 1.2rem; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+}
+
+/* —— Game chrome —— */
+#screen-game { padding: 0; }
+
+.game-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 14px 8px;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border);
+  background: rgba(13,13,15,0.92);
+}
+.brand {
+  display: flex; align-items: center; gap: 10px; min-width: 0;
+}
+.brand-mark {
+  width: 36px; height: 36px; border-radius: 10px; flex-shrink: 0;
+  background: linear-gradient(145deg, #3a3020, #1e1810);
+  border: 1px solid rgba(245,200,66,0.5);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1rem;
+  box-shadow: 0 0 12px rgba(245,200,66,0.2);
+}
+.brand-text { min-width: 0; }
+.brand-title {
+  font-weight: 800; font-style: italic; font-size: 0.95rem;
+  letter-spacing: 0.04em; line-height: 1.1; color: #fff;
+}
+.brand-tag {
+  font-size: 0.58rem; color: var(--text-dim);
+  letter-spacing: 0.12em; text-transform: uppercase; margin-top: 2px;
+}
+.currency-pills { display: flex; gap: 6px; flex-shrink: 0; }
+.pill {
+  display: flex; align-items: center; gap: 5px;
+  background: var(--panel-solid);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 5px 8px 5px 10px;
+  font-family: var(--mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  min-height: 36px;
+}
+.pill.cash { color: var(--accent); border-color: rgba(61,255,122,0.25); }
+.pill.rep { color: var(--purple); border-color: rgba(179,102,255,0.3); }
+.pill .pill-ico { font-size: 0.85rem; }
+.pill .pill-plus {
+  width: 22px; height: 22px; border-radius: 6px;
+  background: rgba(61,255,122,0.15); color: var(--accent);
+  border: none; min-width: 22px; min-height: 22px; padding: 0;
+  font-size: 0.85rem; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+}
+.pill.rep .pill-plus { background: rgba(179,102,255,0.15); color: var(--purple); }
+
+/* Top tabs */
+.top-tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 4px 6px 0;
+  flex-shrink: 0;
+  border-bottom: 1px solid var(--border);
+  background: rgba(13,13,15,0.92);
+  gap: 2px;
+}
+.top-tab {
+  flex: 1;
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  background: transparent; border: none; border-radius: 0;
+  border-bottom: 2px solid transparent;
+  min-height: 48px; padding: 8px 2px 6px;
+  color: var(--text-dim); font-size: 0.62rem;
+  font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
+  position: relative;
+}
+.top-tab .tab-ico { font-size: 1.15rem; line-height: 1; }
+.top-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.top-tab .badge-dot {
+  position: absolute; top: 6px; right: calc(50% - 18px);
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--danger);
+  box-shadow: 0 0 6px var(--danger);
+  display: none;
+}
+.top-tab .badge-dot.on { display: block; }
+
+.tab-panel {
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  padding: 12px 12px 10px;
+  overflow: hidden;
+}
+.tab-panel.active { display: flex; }
+
+/* City hero */
+.city-hero {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  min-height: 168px;
+  border: 1px solid var(--border-hi);
+  margin-bottom: 12px;
+  flex-shrink: 0;
+}
+.city-sky {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(180deg, transparent 40%, rgba(0,0,0,0.75) 100%),
+    linear-gradient(135deg, #1a1040 0%, #0a1830 40%, #1a2848 70%, #2a1840 100%);
+}
+.city-sky::before {
+  content: "";
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(90deg, transparent 0 8%, #0c1220 8% 14%, transparent 14% 22%, #101828 22% 30%, transparent 30% 38%, #0e1624 38% 48%, transparent 48% 55%, #121c2c 55% 68%, transparent 68% 74%, #0c1422 74% 82%, transparent 82% 88%, #101a28 88% 96%, transparent 96%),
+    linear-gradient(180deg, transparent 55%, #0a0e18 55%);
+  background-size: 100% 55%, 100% 100%;
+  background-position: bottom, center;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  mask-image: linear-gradient(180deg, transparent 20%, #000 50%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 20%, #000 50%);
+}
+.city-sky.loc-bronx { background: linear-gradient(135deg,#1a0a20,#0a1830 50%,#201018); }
+.city-sky.loc-ghetto { background: linear-gradient(135deg,#180a10,#1a1020 50%,#0a1018); }
+.city-sky.loc-central-park { background: linear-gradient(135deg,#0a2018,#0a1828 50%,#102018); }
+.city-sky.loc-manhattan { background: linear-gradient(135deg,#0a1040,#181840 40%,#2a1848); }
+.city-sky.loc-coney-island { background: linear-gradient(135deg,#201018,#182038 50%,#301820); }
+.city-sky.loc-brooklyn { background: linear-gradient(135deg,#101828,#181030 50%,#0a1820); }
+.city-stars {
+  position: absolute; inset: 0; pointer-events: none; opacity: 0.5;
+  background-image: radial-gradient(1px 1px at 10% 20%, #fff, transparent),
+    radial-gradient(1px 1px at 30% 12%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 55% 18%, #ffe, transparent),
+    radial-gradient(1px 1px at 75% 10%, #fff, transparent),
+    radial-gradient(1px 1px at 88% 25%, #fff, transparent),
+    radial-gradient(1px 1px at 42% 8%, #fff, transparent);
+}
+.city-hero-content {
+  position: relative; z-index: 1;
+  padding: 14px 14px 12px;
+  display: flex; flex-direction: column; gap: 10px;
+  min-height: 168px; justify-content: flex-end;
+}
+.city-loc-row {
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 8px;
+}
+.city-loc-name {
+  font-weight: 800; font-size: 1.15rem; letter-spacing: 0.03em;
+  text-transform: uppercase; text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+.city-loc-name .pin { color: var(--accent); margin-right: 4px; }
+.city-day {
+  font-family: var(--mono); font-size: 0.75rem; color: var(--warn);
+  background: rgba(0,0,0,0.45); padding: 4px 8px; border-radius: 8px;
+  border: 1px solid rgba(255,184,77,0.25); white-space: nowrap;
+}
+.city-safety {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.city-safety.cool { color: var(--info); }
+.city-safety.warm { color: var(--warn); }
+.city-safety.hot { color: #ff9944; }
+.city-safety.fire { color: var(--danger); }
+
+.meters { display: flex; flex-direction: column; gap: 6px; }
+.meter-row {
+  display: grid; grid-template-columns: 110px 1fr 36px;
+  align-items: center; gap: 8px;
+  font-size: 0.68rem; color: rgba(255,255,255,0.75);
+  text-transform: uppercase; letter-spacing: 0.04em; font-weight: 600;
+}
+.meter-track {
+  height: 6px; border-radius: 999px; background: rgba(255,255,255,0.12);
+  overflow: hidden;
+}
+.meter-fill {
+  height: 100%; border-radius: 999px;
+  background: linear-gradient(90deg, #8899aa, #c8d0d8);
+  transition: width 0.35s ease;
+}
+.meter-fill.rival {
+  background: linear-gradient(90deg, #cc3344, #ff4d6a);
+  box-shadow: 0 0 8px rgba(255,77,106,0.4);
+}
+.meter-val { font-family: var(--mono); text-align: right; font-size: 0.7rem; }
+
+.city-actions {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 2px;
+}
+.city-actions button {
+  min-height: 44px; font-size: 0.82rem;
+  background: rgba(0,0,0,0.45); border-color: var(--border-hi);
+  backdrop-filter: blur(8px);
+}
+.city-actions button.primary {
+  background: linear-gradient(180deg, #2ecc6a, #1a9a48);
+  color: #0a1a0e;
+}
+
+.rumor-card {
+  display: flex; align-items: flex-start; gap: 8px;
+  padding: 10px 12px; margin-bottom: 12px;
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; cursor: pointer; flex-shrink: 0;
+  user-select: none; -webkit-user-select: none;
+}
+.rumor-card .rumor-ico { flex-shrink: 0; font-size: 1rem; }
+.rumor-card .rumor-body { flex: 1; min-width: 0; }
+.rumor-card .rumor-short {
+  font-size: 0.8rem; color: var(--info); line-height: 1.3;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.rumor-card.expanded .rumor-short { white-space: normal; }
+.rumor-card .rumor-full {
+  display: none; margin-top: 4px; font-size: 0.75rem;
+  color: var(--text-dim); line-height: 1.35;
+}
+.rumor-card.expanded .rumor-full { display: block; }
+.rumor-card .rumor-chev {
+  flex-shrink: 0; font-size: 0.7rem; color: var(--text-dim); margin-top: 2px;
+  transition: transform 0.15s;
+}
+.rumor-card.expanded .rumor-chev { transform: rotate(180deg); }
+
+.section-head {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 8px; flex-shrink: 0;
+}
+.section-head .refresh {
+  font-size: 0.68rem; color: var(--text-dim); font-family: var(--mono);
+  display: flex; align-items: center; gap: 4px;
+}
+
+/* Market / deal rows */
+.market-list, .product-list { display: flex; flex-direction: column; gap: 8px; }
+.mkt-row {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  gap: 10px; align-items: center;
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 10px 12px; min-height: 64px;
+}
+.mkt-row.unavailable { opacity: 0.42; }
+.mkt-icon {
+  width: 40px; height: 40px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.25rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+}
+.mkt-info { min-width: 0; }
+.mkt-name {
+  font-weight: 700; font-size: 0.82rem; letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.mkt-meta {
+  font-size: 0.7rem; color: var(--text-dim); margin-top: 2px;
+  font-family: var(--mono);
+}
+.mkt-right { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+.mkt-price {
+  font-family: var(--mono); font-weight: 800; font-size: 0.95rem;
+}
+.mkt-spark { width: 56px; height: 22px; display: block; }
+.mkt-chg {
+  font-size: 0.68rem; font-weight: 700; font-family: var(--mono);
+}
+.mkt-chg.up { color: var(--accent); }
+.mkt-chg.down { color: var(--info); }
+.mkt-chg.flat { color: var(--text-dim); }
+.mkt-actions {
+  display: flex; gap: 6px; margin-top: 8px;
+  grid-column: 1 / -1;
+}
+.mkt-actions button { flex: 1; min-height: 40px; font-size: 0.8rem; }
+
+.deal-row {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px; display: flex; flex-direction: column; gap: 8px;
+}
+.deal-top {
+  display: grid; grid-template-columns: 40px 1fr auto; gap: 10px; align-items: center;
+}
+
+/* Action tiles */
+.action-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+  margin-top: 12px; flex-shrink: 0;
+}
+.action-tile {
+  text-align: left; padding: 12px; min-height: 88px;
+  border-radius: 14px; border: 1px solid var(--border);
+  background: var(--panel); display: flex; flex-direction: column; gap: 4px;
+  align-items: flex-start; justify-content: flex-start;
+}
+.action-tile .tile-ico { font-size: 1.3rem; margin-bottom: 2px; }
+.action-tile .tile-title {
+  font-weight: 800; font-size: 0.78rem; letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.action-tile .tile-desc { font-size: 0.68rem; color: var(--text-dim); font-weight: 500; line-height: 1.3; }
+.action-tile.green { border-color: rgba(61,255,122,0.35); box-shadow: inset 0 0 20px rgba(61,255,122,0.06); }
+.action-tile.green .tile-title { color: var(--accent); }
+.action-tile.purple { border-color: rgba(179,102,255,0.35); box-shadow: inset 0 0 20px rgba(179,102,255,0.06); }
+.action-tile.purple .tile-title { color: var(--purple); }
+.action-tile.orange { border-color: rgba(255,153,68,0.35); box-shadow: inset 0 0 20px rgba(255,153,68,0.06); }
+.action-tile.orange .tile-title { color: var(--orange); }
+.action-tile.red { border-color: rgba(255,77,106,0.35); box-shadow: inset 0 0 20px rgba(255,77,106,0.06); }
+.action-tile.red .tile-title { color: var(--danger); }
+
+.city-footer {
+  display: grid; grid-template-columns: 1fr 1.4fr; gap: 8px;
+  margin-top: 10px; flex-shrink: 0;
+}
+.city-footer button { min-height: 48px; font-size: 0.82rem; }
+
+/* Inventory / empire / wanted panels */
+.stat-cards {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 12px;
+}
+.stat-card {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 10px 12px;
+}
+.stat-card .label {
+  font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase;
+  letter-spacing: 0.08em; font-weight: 700;
+}
+.stat-card .value {
+  font-family: var(--mono); font-size: 1.05rem; font-weight: 700;
+  color: var(--accent); margin-top: 2px; word-break: break-all;
+}
+.stat-card .value.warn { color: var(--warn); }
+.stat-card .value.danger { color: var(--danger); }
+.stat-card.wide { grid-column: 1 / -1; }
+
+.inv-list, .svc-list, .loc-list, .score-list {
+  display: flex; flex-direction: column; gap: 8px;
+}
+.inv-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 14px; background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; min-height: 48px; gap: 8px;
+}
+.inv-item .qty {
+  font-family: var(--mono); color: var(--accent); font-weight: 700; flex-shrink: 0;
+}
+.inv-item .inv-acts { display: flex; gap: 6px; flex-shrink: 0; }
+
+.svc-btn, .loc-btn {
+  width: 100%; text-align: left;
+  display: flex; justify-content: space-between; align-items: center;
+  background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+}
+.loc-btn.current { border-color: var(--accent); color: var(--accent); }
+.loc-btn .here, .svc-btn .here { font-size: 0.72rem; color: var(--text-dim); }
+
+.wanted-hero {
+  background: linear-gradient(135deg, rgba(255,77,106,0.12), rgba(28,28,32,0.9));
+  border: 1px solid rgba(255,77,106,0.3);
+  border-radius: var(--radius); padding: 16px; margin-bottom: 12px;
+  text-align: center;
+}
+.wanted-hero .heat-big {
+  font-size: 2rem; font-weight: 800; font-style: italic;
+  letter-spacing: 0.04em; margin: 6px 0;
+}
+.wanted-hero .heat-big.cool { color: var(--info); }
+.wanted-hero .heat-big.warm { color: var(--warn); }
+.wanted-hero .heat-big.hot { color: #ff9944; }
+.wanted-hero .heat-big.fire { color: var(--danger); text-shadow: 0 0 16px rgba(255,77,106,0.4); }
+.tip-list { display: flex; flex-direction: column; gap: 8px; }
+.tip-card {
+  background: var(--panel); border: 1px solid var(--border);
+  border-radius: 12px; padding: 12px 14px; font-size: 0.85rem; line-height: 1.4;
+}
+.tip-card strong { color: var(--accent); }
+
+.cta-bronx {
+  text-align: center; padding: 24px 16px;
+  background: var(--panel); border: 1px dashed rgba(255,184,77,0.35);
+  border-radius: var(--radius); margin-bottom: 12px;
+}
+.cta-bronx .cta-ico { font-size: 2rem; margin-bottom: 8px; }
+.cta-bronx p { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 12px; }
+
+.empty-msg {
+  text-align: center; color: var(--text-dim); padding: 24px 12px; font-size: 0.9rem;
+}
+
+/* Modal */
+.modal-overlay {
+  display: none; position: absolute; inset: 0;
+  background: rgba(0,0,0,0.82); z-index: 100;
+  align-items: flex-end; justify-content: center;
+  padding: 12px; padding-bottom: max(12px, var(--safe-b));
+}
+.modal-overlay.active { display: flex; }
+.modal {
+  background: var(--bg2); border: 1px solid var(--border-hi);
+  border-radius: 18px 18px 14px 14px; width: 100%; max-width: 460px;
+  max-height: 85%; display: flex; flex-direction: column; overflow: hidden;
+  box-shadow: 0 -8px 48px rgba(0,0,0,0.65);
+}
+.modal-header {
+  padding: 14px 16px 8px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+}
+.modal-body {
+  padding: 14px 16px; overflow-y: auto; -webkit-overflow-scrolling: touch;
+  flex: 1; min-height: 0;
+}
+.modal-footer {
+  padding: 10px 16px 14px; display: flex; flex-direction: column; gap: 8px;
+  border-top: 1px solid var(--border); flex-shrink: 0;
+}
+.modal-footer.row { flex-direction: row; }
+.modal-footer.row button { flex: 1; }
+
+.qty-controls {
+  display: flex; align-items: center; gap: 8px; justify-content: center; margin: 12px 0;
+}
+.qty-controls input {
+  width: 100px; min-height: var(--tap); text-align: center;
+  font-family: var(--mono); font-size: 1.2rem; font-weight: 700;
+  background: var(--panel-solid); border: 1px solid var(--border-hi);
+  border-radius: 10px; color: var(--accent); -moz-appearance: textfield;
+}
+.qty-controls input::-webkit-outer-spin-button,
+.qty-controls input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+.trade-summary {
+  font-family: var(--mono); font-size: 0.88rem; text-align: center;
+  color: var(--text-dim); margin-bottom: 8px;
+}
+.trade-summary strong { color: var(--accent); }
+.event-icon { font-size: 2.5rem; text-align: center; margin-bottom: 8px; }
+.event-text { font-size: 0.95rem; line-height: 1.5; margin-bottom: 4px; }
+.hint { font-size: 0.75rem; color: var(--text-dim); text-align: center; margin-top: 6px; }
+.money-input {
+  width: 100%; min-height: var(--tap); text-align: center;
+  font-family: var(--mono); font-size: 1.25rem; font-weight: 700;
+  background: var(--panel-solid); border: 1px solid var(--border-hi);
+  border-radius: 10px; color: var(--accent); padding: 10px; margin: 8px 0;
+}
+
+.toast {
+  position: absolute; top: 12px; left: 50%;
+  transform: translateX(-50%) translateY(-120%);
+  background: var(--panel-solid); border: 1px solid var(--accent);
+  color: var(--accent); padding: 10px 16px; border-radius: 10px;
+  font-size: 0.85rem; z-index: 200; opacity: 0;
+  transition: transform 0.25s, opacity 0.25s; pointer-events: none;
+  max-width: 90%; text-align: center; font-family: var(--mono);
+}
+.toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+.toast.warn { border-color: var(--warn); color: var(--warn); }
+.toast.danger { border-color: var(--danger); color: var(--danger); }
+
+.end-score { text-align: center; padding: 16px 0; }
+.end-score .big {
+  font-family: var(--mono); font-size: 2rem; color: var(--accent);
+  font-weight: 700; text-shadow: 0 0 16px var(--accent-glow);
+}
+.end-score .sub { color: var(--text-dim); margin-top: 4px; font-size: 0.9rem; }
+.title-art { font-size: 3rem; line-height: 1; margin-bottom: 4px; }
+
+.high-scores { margin-top: 8px; }
+.high-scores li {
+  list-style: none; display: flex; justify-content: space-between;
+  padding: 10px 0; border-bottom: 1px solid var(--border);
+  font-family: var(--mono); font-size: 0.9rem;
+}
+.high-scores li:last-child { border-bottom: none; }
+.high-scores .rank { color: var(--text-dim); width: 28px; }
+.high-scores .score-val { color: var(--accent); }
+
+.view-all-btn {
+  width: 100%; margin-top: 8px; min-height: 44px;
+  background: var(--panel); border: 1px solid var(--border);
+  color: var(--text-dim); font-size: 0.78rem; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+
+
+/* --- Cinematic intro (16-bit console vibe) --- */
+#intro-cinematic {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 20000;
+  background: #000;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  overflow: hidden;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+}
+#intro-cinematic.active { display: flex; }
+#intro-cinematic.fading {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+  pointer-events: none;
+}
+.intro-letterbox {
+  flex: 0 0 auto;
+  height: max(10vh, 48px);
+  background: #000;
+  position: relative;
+  z-index: 3;
+}
+.intro-stage {
+  flex: 1;
+  position: relative;
+  min-height: 0;
+  overflow: hidden;
+  background: #050810;
+}
+#intro-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+.intro-scanlines {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0,0,0,0.22) 2px,
+    rgba(0,0,0,0.22) 4px
+  );
+  mix-blend-mode: multiply;
+  opacity: 0.7;
+}
+.intro-vignette {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.65) 100%);
+}
+.intro-text-wrap {
+  position: absolute;
+  left: 0; right: 0; bottom: 0; top: 0;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 20px;
+  pointer-events: none;
+}
+.intro-caption {
+  font-family: var(--mono);
+  font-size: clamp(0.85rem, 3.6vw, 1.05rem);
+  line-height: 1.55;
+  color: #c8e6c8;
+  text-align: center;
+  max-width: 22em;
+  text-shadow: 0 0 8px rgba(93,255,93,0.35), 2px 2px 0 #000;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+  white-space: pre-line;
+}
+.intro-caption.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.intro-caption.title-smash {
+  font-size: clamp(1.8rem, 9vw, 2.8rem);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  text-shadow:
+    0 0 20px rgba(93,255,93,0.6),
+    3px 3px 0 #003300,
+    -1px -1px 0 #000;
+  transform: scale(0.4);
+  opacity: 0;
+}
+.intro-caption.title-smash.show {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.15s ease, transform 0.35s cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+.intro-sub {
+  margin-top: 10px;
+  font-size: clamp(0.7rem, 2.8vw, 0.85rem);
+  color: var(--warn);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.4s ease 0.2s;
+}
+.intro-sub.show { opacity: 1; }
+.intro-hint {
+  position: absolute;
+  bottom: max(12px, var(--safe-b));
+  left: 0; right: 0;
+  text-align: center;
+  font-size: 0.7rem;
+  color: rgba(122,154,122,0.85);
+  font-family: var(--mono);
+  z-index: 5;
+  pointer-events: none;
+  letter-spacing: 0.06em;
+}
+.intro-controls {
+  position: absolute;
+  top: max(10px, var(--safe-t));
+  right: max(10px, var(--safe-r));
+  left: max(10px, var(--safe-l));
+  z-index: 6;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  pointer-events: none;
+}
+.intro-controls button {
+  pointer-events: auto;
+  min-height: 40px;
+  min-width: 40px;
+  padding: 8px 14px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 2px solid var(--border-hi);
+  background: rgba(10,14,10,0.85);
+  color: var(--accent);
+  font-family: var(--mono);
+  cursor: pointer;
+  letter-spacing: 0.04em;
+}
+.intro-controls button.skip-btn {
+  border-color: var(--warn);
+  color: var(--warn);
+  padding: 8px 18px;
+  font-size: 0.9rem;
+}
+.intro-controls button:active { transform: scale(0.96); }
+.mute-fab {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+  min-width: 44px;
+  min-height: 44px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--panel);
+  color: var(--text);
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#screen-title { position: relative; }
+
+
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <div id="screen-title" class="screen active" role="main">
+    <button type="button" class="mute-fab" id="btn-mute-title" aria-label="Toggle sound" title="Sound">🔊</button>
+    <div class="title-logo" aria-hidden="true">👑</div>
+    <h1>STREET HUSTLE</h1>
+    <p class="tagline">BUILD. DEAL. DOMINATE.<br>Inspired by classic Drug Wars (John E. Dell, 1984)</p>
+    <div class="blurb">
+      Start with <strong>$2,000</strong> and a cheerful <strong>$5,500</strong> loan-shark tab.
+      Jet across six NYC spots for 30 days. Buy low, sell high, stash surplus in the Bronx,
+      and try not to explain your trenchcoat to Officer Hardass.
+    </div>
+    <div class="title-btns">
+      <button type="button" class="primary block" id="btn-new-game">New Game</button>
+      <button type="button" class="block" id="btn-continue" disabled>Continue</button>
+      <button type="button" class="ghost block" id="btn-high-scores">High Scores</button>
+      <button type="button" class="ghost block" id="btn-how-to">How to Play</button>
+    </div>
+    <p class="disclaimer">Fictional arcade comedy. Not advice. No real crime. Have fun, don't get caught by the pixel cops.</p>
+  </div>
+
+  <div id="screen-game" class="screen" role="main">
+    <header class="game-header">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">👑</div>
+        <div class="brand-text">
+          <div class="brand-title">STREET HUSTLE</div>
+          <div class="brand-tag">Build · Deal · Dominate</div>
+        </div>
+      </div>
+      <div class="currency-pills">
+        <div class="pill cash" title="Cash">
+          <span class="pill-ico" aria-hidden="true">💵</span>
+          <span id="ui-cash">$2,000</span>
+          <button type="button" class="pill-plus" id="btn-cash-plus" aria-label="Empire / bank" title="Empire">+</button>
+        </div>
+        <div class="pill rep" title="Street rep (from net worth)">
+          <span class="pill-ico" aria-hidden="true">◆</span>
+          <span id="ui-rep">0</span>
+        </div>
+      </div>
+    </header>
+
+    <nav class="top-tabs" role="tablist" aria-label="Main">
+      <button type="button" class="top-tab active" role="tab" data-tab="city" aria-selected="true" id="tabbtn-city">
+        <span class="tab-ico" aria-hidden="true">🏙</span>City
+      </button>
+      <button type="button" class="top-tab" role="tab" data-tab="deal" aria-selected="false" id="tabbtn-deal">
+        <span class="tab-ico" aria-hidden="true">📦</span>Deal
+      </button>
+      <button type="button" class="top-tab" role="tab" data-tab="inventory" aria-selected="false" id="tabbtn-inventory">
+        <span class="tab-ico" aria-hidden="true">🧳</span>Inventory
+      </button>
+      <button type="button" class="top-tab" role="tab" data-tab="empire" aria-selected="false" id="tabbtn-empire">
+        <span class="tab-ico" aria-hidden="true">👑</span>Empire
+      </button>
+      <button type="button" class="top-tab" role="tab" data-tab="wanted" aria-selected="false" id="tabbtn-wanted">
+        <span class="tab-ico" aria-hidden="true">🚔</span>Wanted
+        <span class="badge-dot" id="wanted-dot" aria-hidden="true"></span>
+      </button>
+    </nav>
+
+    <!-- CITY -->
+    <div class="tab-panel active" id="tab-city" role="tabpanel">
+      <div class="scroll-area">
+        <div class="city-hero">
+          <div class="city-sky loc-bronx" id="city-sky"></div>
+          <div class="city-stars" aria-hidden="true"></div>
+          <div class="city-hero-content">
+            <div class="city-loc-row">
+              <div>
+                <div class="city-loc-name"><span class="pin">📍</span><span id="ui-location">Bronx</span></div>
+                <div class="city-safety cool" id="ui-safety">Safety: High · Cool</div>
+              </div>
+              <div class="city-day" id="ui-day">Day 1 / 30</div>
+            </div>
+            <div class="meters">
+              <div class="meter-row">
+                <span>Police Presence</span>
+                <div class="meter-track"><div class="meter-fill" id="meter-police" style="width:0%"></div></div>
+                <span class="meter-val" id="meter-police-val">0%</span>
+              </div>
+              <div class="meter-row">
+                <span>Rival Activity</span>
+                <div class="meter-track"><div class="meter-fill rival" id="meter-rival" style="width:0%"></div></div>
+                <span class="meter-val" id="meter-rival-val">0%</span>
+              </div>
+            </div>
+            <div class="city-actions">
+              <button type="button" class="primary" id="btn-travel">✈ Travel</button>
+              <button type="button" id="btn-city-event" title="Street tip">📡 Tips</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="rumor-card" id="rumor-banner" role="button" tabindex="0" aria-expanded="false" title="Tap for full tip">
+          <span class="rumor-ico" aria-hidden="true">📡</span>
+          <div class="rumor-body">
+            <div class="rumor-short" id="ui-rumor-short">Street tip loading…</div>
+            <div class="rumor-full" id="ui-rumor-full"></div>
+          </div>
+          <span class="rumor-chev" aria-hidden="true">▼</span>
+        </div>
+
+        <div class="section-head">
+          <h3>Market Snapshot</h3>
+          <span class="refresh" id="ui-market-refresh">Day prices live</span>
+        </div>
+        <div class="market-list" id="city-market-list"></div>
+        <button type="button" class="view-all-btn" id="btn-view-markets">📊 View Full Market</button>
+
+        <div class="action-grid">
+          <button type="button" class="action-tile green" data-goto="deal">
+            <span class="tile-ico">📦</span>
+            <span class="tile-title">Deal</span>
+            <span class="tile-desc">Buy low, sell high. Grow your fortune.</span>
+          </button>
+          <button type="button" class="action-tile purple" data-goto="inventory">
+            <span class="tile-ico">🧥</span>
+            <span class="tile-title">Coat</span>
+            <span class="tile-desc">Inventory, capacity &amp; guns.</span>
+          </button>
+          <button type="button" class="action-tile orange" data-goto="empire">
+            <span class="tile-ico">🏦</span>
+            <span class="tile-title">Empire</span>
+            <span class="tile-desc">Bank, shark &amp; Bronx stash.</span>
+          </button>
+          <button type="button" class="action-tile red" id="btn-tile-cashout">
+            <span class="tile-ico">🎯</span>
+            <span class="tile-title">Cash Out</span>
+            <span class="tile-desc">End early. Score your net worth.</span>
+          </button>
+        </div>
+
+        <div class="city-footer">
+          <button type="button" class="ghost" id="btn-how-to-game">📄 Log</button>
+          <button type="button" class="primary" id="btn-my-empire">👑 My Empire</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- DEAL -->
+    <div class="tab-panel" id="tab-deal" role="tabpanel">
+      <div class="section-head">
+        <h3>Market Prices</h3>
+        <span class="refresh" id="ui-deal-loc">Bronx</span>
+      </div>
+      <div class="scroll-area">
+        <div class="product-list" id="product-list"></div>
+      </div>
+    </div>
+
+    <!-- INVENTORY -->
+    <div class="tab-panel" id="tab-inventory" role="tabpanel">
+      <div class="stat-cards">
+        <div class="stat-card">
+          <div class="label">Coat Used</div>
+          <div class="value" id="ui-inv">0 / 100</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Guns</div>
+          <div class="value" id="ui-guns">0</div>
+        </div>
+        <div class="stat-card wide">
+          <div class="label">Free Slots · Guns take 5 each</div>
+          <div class="value" id="ui-free">100</div>
+        </div>
+      </div>
+      <div class="section-head"><h3>Coat Contents</h3></div>
+      <div class="scroll-area">
+        <div class="inv-list" id="inv-panel-list"></div>
+        <p class="hint" style="margin-top:12px;">Bigger coats appear as travel events. Stash surplus in the Bronx (Empire tab).</p>
+      </div>
+    </div>
+
+    <!-- EMPIRE -->
+    <div class="tab-panel" id="tab-empire" role="tabpanel">
+      <div class="stat-cards">
+        <div class="stat-card">
+          <div class="label">Cash</div>
+          <div class="value" id="ui-cash-empire">$0</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Debt</div>
+          <div class="value warn" id="ui-debt">$5,500</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Bank</div>
+          <div class="value" id="ui-bank">$0</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Net Worth</div>
+          <div class="value" id="ui-net">$0</div>
+        </div>
+      </div>
+      <div id="empire-bronx-cta" class="cta-bronx" style="display:none;">
+        <div class="cta-ico">🚇</div>
+        <p>Bank, loan shark &amp; stash are Bronx-only. Jet home to run your empire.</p>
+        <button type="button" class="primary block" id="btn-jet-bronx">✈ Jet to Bronx</button>
+      </div>
+      <div id="empire-services" style="display:none;">
+        <div class="section-head"><h3>Bronx Services</h3></div>
+        <div class="svc-list" style="margin-bottom:12px;">
+          <button type="button" class="svc-btn" id="btn-bronx"><span>🦈 Loan Shark</span><span class="here" id="svc-shark-here">pay / borrow</span></button>
+          <button type="button" class="svc-btn" id="btn-bank-svc"><span>🏦 Bank</span><span class="here" id="svc-bank-here">$0</span></button>
+          <button type="button" class="svc-btn" id="btn-stash-bar"><span>📦 Stash</span><span class="here" id="svc-stash-here">0 units</span></button>
+        </div>
+      </div>
+      <div class="section-head"><h3>Run Stats</h3></div>
+      <div class="scroll-area">
+        <div class="tip-list" id="empire-stats"></div>
+        <button type="button" class="danger block" id="btn-quit-game" style="margin-top:12px;">🏁 Cash Out Early</button>
+      </div>
+    </div>
+
+    <!-- WANTED -->
+    <div class="tab-panel" id="tab-wanted" role="tabpanel">
+      <div class="wanted-hero">
+        <div style="font-size:0.7rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--text-dim);font-weight:700;">Heat Level</div>
+        <div class="heat-big cool" id="ui-heat">Cool</div>
+        <div style="font-family:var(--mono);color:var(--text-dim);font-size:0.85rem;" id="ui-heat-num">0 / 10</div>
+        <div style="margin-top:8px;font-size:0.8rem;color:var(--text-dim);" id="wanted-blurb">Officer Hardass is sipping coffee. For now.</div>
+      </div>
+      <div class="section-head"><h3>Cool Off Tips</h3></div>
+      <div class="scroll-area">
+        <div class="tip-list" id="wanted-tips"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="screen-end" class="screen" role="main">
+    <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:12px;padding:16px;">
+      <div class="title-art" id="end-emoji" aria-hidden="true">🏆</div>
+      <h1 id="end-title">Game Over</h1>
+      <div class="end-score">
+        <div class="big" id="end-net">$0</div>
+        <div class="sub" id="end-detail">Net worth (cash + bank − debt)</div>
+      </div>
+      <p class="tagline" id="end-flavor" style="max-width:320px;"></p>
+      <div class="title-btns" style="margin-top:8px;">
+        <button type="button" class="primary block" id="btn-play-again">Play Again</button>
+        <button type="button" class="ghost block" id="btn-end-scores">High Scores</button>
+        <button type="button" class="ghost block" id="btn-end-title">Title Screen</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="screen-scores" class="screen" role="main">
+    <h2 style="margin-bottom:12px;">🏆 High Scores</h2>
+    <div class="panel scroll-area" style="flex:1;padding:12px;">
+      <ol class="high-scores" id="scores-list"></ol>
+      <p class="empty-msg" id="scores-empty" style="display:none;">No scores yet. Go hustle!</p>
+    </div>
+    <button type="button" class="block ghost" id="btn-scores-back" style="margin-top:12px;">Back</button>
+  </div>
+
+  <div class="modal-overlay" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="modal-title">Title</h2>
+      </div>
+      <div class="modal-body" id="modal-body"></div>
+      <div class="modal-footer" id="modal-footer"></div>
+    </div>
+  </div>
+
+  <div id="intro-cinematic" aria-hidden="true">
+    <div class="intro-letterbox" aria-hidden="true"></div>
+    <div class="intro-stage">
+      <canvas id="intro-canvas" width="320" height="180"></canvas>
+      <div class="intro-scanlines" aria-hidden="true"></div>
+      <div class="intro-vignette" aria-hidden="true"></div>
+      <div class="intro-text-wrap">
+        <div class="intro-caption" id="intro-caption"></div>
+        <div class="intro-sub" id="intro-sub"></div>
+      </div>
+      <div class="intro-controls">
+        <button type="button" id="intro-mute" aria-label="Toggle sound">🔊</button>
+        <button type="button" class="skip-btn" id="intro-skip">SKIP ▶</button>
+      </div>
+      <div class="intro-hint" id="intro-hint">TAP TO ADVANCE</div>
+    </div>
+    <div class="intro-letterbox" aria-hidden="true"></div>
+  </div>
+</div>
+
+
+<script>
+(function () {
+  'use strict';
+
+  const STORAGE_KEY = 'streetHustle_v3';
+  const SCORES_KEY = 'streetHustle_scores_v1';
+  const MAX_DAYS = 30;
+  const START_CASH = 2000;
+  const START_DEBT = 5500;
+  const START_CAPACITY = 100;
+  const DEBT_INTEREST = 0.10;
+  const BANK_INTEREST = 0.05;
+  const COAT_BASE_PRICE = 200;
+  const COAT_CAPACITY_BUMP = 40;
+  const GUN_SLOTS = 5;
+  const GUN_BASE_PRICE = 250;
+  const MAX_BORROW = 5000;
+  const MAX_SCORES = 10;
+  const HOME = 'Bronx';
+
+  const LOCATIONS = [
+    'Bronx', 'Ghetto', 'Central Park', 'Manhattan', 'Coney Island', 'Brooklyn'
+  ];
+
+  // Most → least expensive (classic ordering & ranges ~Dell / TI ports)
+  const PRODUCTS = [
+    { id: 'cocaine', name: 'Cocaine', emoji: '❄️', color: '#4da6ff', min: 15000, max: 28000 },
+    { id: 'heroin',  name: 'Heroin',  emoji: '💉', color: '#ff4d6a', min: 5000,  max: 12000 },
+    { id: 'acid',    name: 'Acid',    emoji: '🌈', color: '#b366ff', min: 1000,  max: 4200  },
+    { id: 'weed',    name: 'Weed',    emoji: '🌿', color: '#3dff7a', min: 300,   max: 720   },
+    { id: 'speed',   name: 'Speed',   emoji: '⚡', color: '#ff9944', min: 70,    max: 220   },
+    { id: 'ludes',   name: 'Ludes',   emoji: '💊', color: '#ff66aa', min: 10,    max: 50    }
+  ];
+
+  const LOC_SKY = {
+    'Bronx': 'loc-bronx',
+    'Ghetto': 'loc-ghetto',
+    'Central Park': 'loc-central-park',
+    'Manhattan': 'loc-manhattan',
+    'Coney Island': 'loc-coney-island',
+    'Brooklyn': 'loc-brooklyn'
+  };
+
+  const PRICE_HIST_LEN = 8;
+  let activeTab = 'city';
+
+  function recordPrice(id, price) {
+    if (!state) return;
+    if (!state.priceHistory) state.priceHistory = {};
+    if (!Array.isArray(state.priceHistory[id])) state.priceHistory[id] = [];
+    if (price > 0) {
+      state.priceHistory[id].push(Math.floor(price));
+      if (state.priceHistory[id].length > PRICE_HIST_LEN) {
+        state.priceHistory[id] = state.priceHistory[id].slice(-PRICE_HIST_LEN);
+      }
+    }
+  }
+
+
+  const SHARK_LINES = [
+    '"Interest is the only friend who never sleeps," he says, polishing a knuckle.',
+    '"Pay me, borrow more, or keep sweating. I\'m flexible. Your kneecaps aren\'t."',
+    '"Kid, debt is just future you\'s problem. Future you hates present you."',
+    '"Ten percent a day. Compound joy. You\'re welcome."'
+  ];
+
+  const END_QUIPS = [
+    { min: 100000, title: 'KINGPIN COSPLAY', emoji: '👑', line: 'The shark sent a fruit basket. Suspicious fruit. Legendary run.' },
+    { min: 50000,  title: 'LEGENDARY', emoji: '🏆', line: 'Wall Street called. They want their arbitrage back.' },
+    { min: 20000,  title: 'SOLID HUSTLE', emoji: '💰', line: 'You paid the shark and still have lunch money. Respectable.' },
+    { min: 5500,   title: 'DEBT CLEARED', emoji: '😎', line: 'Tab zero. The city shrugs. You live to jet another day.' },
+    { min: 0,      title: 'BROKE EVEN-ISH', emoji: '😐', line: 'Neither rich nor ruined. The mid-tier ending nobody writes songs about.' },
+    { min: -Infinity, title: 'WIPED OUT', emoji: '💀', line: 'Net worth diving. The shark is already drafting your eulogy.' }
+  ];
+
+  let state = null;
+  let modalMode = null;
+  let tradeProduct = null;
+  let tradeSide = null;
+  let scoresReturnScreen = 'title';
+
+  function $(id) { return document.getElementById(id); }
+
+  function fmt(n) {
+    const v = Math.floor(Number(n) || 0);
+    const sign = v < 0 ? '-' : '';
+    return sign + '$' + Math.abs(v).toLocaleString('en-US');
+  }
+
+  function clamp(n, lo, hi) {
+    return Math.max(lo, Math.min(hi, n));
+  }
+
+  function randInt(lo, hi) {
+    return Math.floor(Math.random() * (hi - lo + 1)) + lo;
+  }
+
+  function pick(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  function chance(p) { return Math.random() < p; }
+
+  function drugSlots(inv) {
+    return PRODUCTS.reduce((s, p) => s + (inv[p.id] || 0), 0);
+  }
+
+  function gunSlots(guns) {
+    return (guns || 0) * GUN_SLOTS;
+  }
+
+  function invUsed(s) {
+    return drugSlots(s.inv) + gunSlots(s.guns);
+  }
+
+  function freeSpace(s) {
+    return s.capacity - invUsed(s);
+  }
+
+  function netWorth(s) {
+    return (s.cash || 0) + (s.bank || 0) - (s.debt || 0);
+  }
+
+  function toast(msg, kind) {
+    const el = $('toast');
+    el.textContent = msg;
+    el.className = 'toast show' + (kind ? ' ' + kind : '');
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => { el.classList.remove('show'); }, 2400);
+  }
+
+  function save() {
+    if (!state || state.over) {
+      try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+      updateContinueBtn();
+      return;
+    }
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+    } catch (e) {}
+    updateContinueBtn();
+  }
+
+  function load() {
+    try {
+      let raw = localStorage.getItem(STORAGE_KEY);
+      if (!raw) {
+        for (const legacyKey of ['streetHustle_v2', 'streetHustle_v1']) {
+          const legacy = localStorage.getItem(legacyKey);
+          if (legacy) {
+            const s = JSON.parse(legacy);
+            if (s && typeof s === 'object' && !s.over) {
+              migrateState(s);
+              return s;
+            }
+          }
+        }
+        return null;
+      }
+      const s = JSON.parse(raw);
+      if (!s || typeof s !== 'object' || s.over) return null;
+      migrateState(s);
+      return s;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function migrateState(s) {
+    if (typeof s.bank !== 'number') s.bank = 0;
+    if (typeof s.guns !== 'number') s.guns = 0;
+    if (typeof s.health !== 'number') s.health = 100;
+    if (typeof s.heat !== 'number' || isNaN(s.heat)) s.heat = 0;
+    s.heat = clamp(s.heat, 0, 100);
+    if (typeof s.dealtToday !== 'boolean') s.dealtToday = false;
+    if (typeof s.rumorExpanded !== 'boolean') s.rumorExpanded = false;
+    if (!s.stash || typeof s.stash !== 'object') s.stash = {};
+    if (!s.inv || typeof s.inv !== 'object') s.inv = {};
+    if (!s.priceHistory || typeof s.priceHistory !== 'object') s.priceHistory = {};
+    PRODUCTS.forEach(p => {
+      if (typeof s.inv[p.id] !== 'number') s.inv[p.id] = 0;
+      if (typeof s.stash[p.id] !== 'number') s.stash[p.id] = 0;
+      if (!Array.isArray(s.priceHistory[p.id])) s.priceHistory[p.id] = [];
+      s.priceHistory[p.id] = s.priceHistory[p.id]
+        .map(n => Math.floor(Number(n) || 0))
+        .filter(n => n >= 0)
+        .slice(-PRICE_HIST_LEN);
+    });
+    if (!s.rumor || typeof s.rumor !== 'object' || !s.rumor.short) {
+      s.rumor = null;
+    }
+  }
+
+  function loadScores() {
+    try {
+      const raw = localStorage.getItem(SCORES_KEY);
+      return raw ? JSON.parse(raw) : [];
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveScore(score, reason) {
+    const scores = loadScores();
+    scores.push({
+      score: Math.floor(score),
+      reason: reason || 'Finished',
+      date: Date.now()
+    });
+    scores.sort((a, b) => b.score - a.score);
+    const trimmed = scores.slice(0, MAX_SCORES);
+    try {
+      localStorage.setItem(SCORES_KEY, JSON.stringify(trimmed));
+    } catch (e) {}
+    return trimmed;
+  }
+
+  function updateContinueBtn() {
+    $('btn-continue').disabled = !load();
+  }
+
+  function emptyInv() {
+    const o = {};
+    PRODUCTS.forEach(p => { o[p.id] = 0; });
+    return o;
+  }
+
+  function newGame() {
+    state = {
+      day: 1,
+      location: HOME,
+      cash: START_CASH,
+      debt: START_DEBT,
+      bank: 0,
+      capacity: START_CAPACITY,
+      coatsBought: 0,
+      guns: 0,
+      health: 100,
+      heat: 0,
+      dealtToday: false,
+      rumorExpanded: false,
+      rumor: null,
+      inv: emptyInv(),
+      stash: emptyInv(),
+      prices: {},
+      available: {},
+      priceHistory: {},
+      over: false,
+      endReason: null
+    };
+    PRODUCTS.forEach(p => { state.priceHistory[p.id] = []; });
+    rollPrices();
+    generateRumor();
+    save();
+    activeTab = 'city';
+    showScreen('game');
+    renderMarket();
+    toast('Day 1, Bronx. Shark says hi.');
+  }
+
+  function continueGame() {
+    const s = load();
+    if (!s) {
+      toast('No saved game', 'warn');
+      return;
+    }
+    state = s;
+    if (!state.prices || !Object.keys(state.prices).length) rollPrices();
+    if (!state.rumor || state.rumor.day !== state.day) generateRumor();
+    activeTab = 'city';
+    showScreen('game');
+    renderMarket();
+    toast('Welcome back, hustler.');
+  }
+
+
+  function heatTier(h) {
+    h = clamp(typeof h === 'number' ? h : (state && state.heat) || 0, 0, 100);
+    if (h >= 75) return 'fire';
+    if (h >= 50) return 'hot';
+    if (h >= 25) return 'warm';
+    return 'cool';
+  }
+
+  function heatLabel(h) {
+    const t = heatTier(h);
+    return t === 'fire' ? 'On Fire' : t === 'hot' ? 'Hot' : t === 'warm' ? 'Warm' : 'Cool';
+  }
+
+  function heatDisplay(h) {
+    return Math.round(clamp(h, 0, 100) / 10);
+  }
+
+  function addHeat(n, silent) {
+    if (!state || !n) return;
+    const before = state.heat || 0;
+    state.heat = clamp(before + n, 0, 100);
+    if (!silent && Math.abs(n) >= 4) {
+      const delta = state.heat - before;
+      if (delta > 0) toast('Heat ↑ ' + heatLabel(state.heat), 'warn');
+      else if (delta < 0) toast('Heat ↓ ' + heatLabel(state.heat));
+    }
+  }
+
+  function generateRumor() {
+    if (!state) return;
+    const accurate = chance(0.8);
+    const loc = state.location;
+    const cheap = [];
+    const pricey = [];
+    PRODUCTS.forEach(p => {
+      if (!state.available[p.id]) return;
+      const price = state.prices[p.id] || 0;
+      if (price <= 0) return;
+      if (price < p.min * 0.7) cheap.push(p);
+      if (price > p.max * 1.2) pricey.push(p);
+    });
+
+    const kinds = [];
+    if (cheap.length) kinds.push('cheap');
+    if (pricey.length) kinds.push('expensive');
+    kinds.push('cops');
+    kinds.push('heat');
+    if (kinds.length < 3) kinds.push('noise');
+
+    let kind = pick(kinds);
+    // Prefer market tips when available
+    if ((cheap.length || pricey.length) && chance(0.65)) {
+      kind = cheap.length && (!pricey.length || chance(0.55)) ? 'cheap' : 'expensive';
+    }
+
+    let short = '';
+    let full = '';
+    let tipLoc = loc;
+    let tipProduct = null;
+
+    if (kind === 'cheap' || kind === 'expensive') {
+      const pool = kind === 'cheap' ? (cheap.length ? cheap : PRODUCTS) : (pricey.length ? pricey : PRODUCTS);
+      tipProduct = pick(pool);
+      if (!accurate) {
+        // Misleading: wrong product, inverted tip, or wrong borough vibe
+        tipProduct = pick(PRODUCTS.filter(p => p.id !== tipProduct.id));
+        if (chance(0.5)) tipLoc = pick(LOCATIONS.filter(l => l !== loc));
+        kind = kind === 'cheap' ? 'expensive' : 'cheap';
+      }
+      if (kind === 'cheap') {
+        short = 'TIP: Cheap ' + tipProduct.name + ' @ ' + tipLoc;
+        full = 'Word on the street: ' + tipProduct.emoji + ' ' + tipProduct.name +
+          ' is unusually cheap in ' + tipLoc + ' today. Scoop before the tourists wake up.' +
+          (accurate ? '' : ' (…or so a guy with two radios swore.)');
+      } else {
+        short = 'TIP: ' + tipProduct.name + ' spiked @ ' + tipLoc;
+        full = 'Supply dried up. ' + tipProduct.emoji + ' ' + tipProduct.name +
+          ' is fetching ugly money in ' + tipLoc + ' right now. Dump inventory if you got it.' +
+          (accurate ? '' : ' Trust issues apply.');
+      }
+    } else if (kind === 'cops') {
+      const reallyHot = (state.heat || 0) >= 45;
+      const warn = accurate ? reallyHot : !reallyHot;
+      if (warn) {
+        short = 'WARN: Hardass prowling…';
+        full = accurate
+          ? 'Scanner chatter: Officer Hardass and friends are itching for a "donation." Lay low, travel light, or bring iron.'
+          : 'A tipster swears Hardass is everywhere. Your heat is chill. Maybe they mean metaphorically.';
+      } else {
+        short = 'TIP: Streets look quiet';
+        full = accurate
+          ? 'No sirens on the scanner. Good day to jet with a full coat — if you believe radio gossip.'
+          : 'Someone claims the cops are on coffee break. Your heat says otherwise, but hey — comedy.';
+      }
+    } else if (kind === 'heat') {
+      const h = state.heat || 0;
+      const lab = heatLabel(h);
+      if (accurate) {
+        short = 'HEAT: You\'re ' + lab;
+        full = h >= 50
+          ? 'Your name is getting around. Expect more badges, worse deals, and subway "friends." Stash & bank cool you off.'
+          : 'You\'re still under the radar. Keep the coat light and the deposits flowing.';
+      } else {
+        short = h >= 50 ? 'HEAT: Looking Cool' : 'HEAT: You\'re On Fire';
+        full = 'Anonymous tip completely misread your vibe. Humor is free; bail is not.';
+      }
+    } else {
+      const noise = [
+        { s: 'TIP: Pigeons know nothing', f: 'A pigeon stole a fry and zero intel. Classic NYC.' },
+        { s: 'TIP: Bagel economics', f: 'Two tourists argued about bagels for 11 minutes. Markets unchanged.' },
+        { s: 'TIP: Rain, ambition, regret', f: 'Your coat smells like a plan. That is not financial advice.' }
+      ];
+      const n = pick(noise);
+      short = n.s;
+      full = n.f;
+    }
+
+    state.rumor = {
+      short: short,
+      full: full,
+      day: state.day,
+      kind: kind,
+      accurate: accurate
+    };
+    state.rumorExpanded = false;
+  }
+
+  function rollPrices() {
+    state.prices = {};
+    state.available = {};
+    const heat = state.heat || 0;
+    const unavailBase = 0.12 + (heat >= 50 ? (heat - 50) * 0.002 : 0);
+    const buyBump = heat >= 60 ? 1 + (heat - 60) * 0.0025 : 1;
+    PRODUCTS.forEach(p => {
+      const avail = !chance(Math.min(0.28, unavailBase));
+      state.available[p.id] = avail;
+      if (avail) {
+        let lo = p.min, hi = p.max;
+        if (chance(0.07)) {
+          lo = Math.floor(p.min * 0.2);
+          hi = Math.floor(p.min * 0.5);
+        } else if (chance(0.07)) {
+          lo = Math.floor(p.max * 1.5);
+          hi = Math.floor(p.max * 2.4);
+        }
+        let price = randInt(lo, hi);
+        if (buyBump > 1 && price >= p.min * 0.7) {
+          price = Math.floor(price * buyBump);
+        }
+        state.prices[p.id] = price;
+      } else {
+        state.prices[p.id] = 0;
+      }
+      if (!state.priceHistory) state.priceHistory = {};
+      if (!Array.isArray(state.priceHistory[p.id])) state.priceHistory[p.id] = [];
+      const recorded = state.available[p.id] ? state.prices[p.id] : 0;
+      if (recorded > 0) {
+        state.priceHistory[p.id].push(recorded);
+        if (state.priceHistory[p.id].length > PRICE_HIST_LEN) {
+          state.priceHistory[p.id] = state.priceHistory[p.id].slice(-PRICE_HIST_LEN);
+        }
+      }
+    });
+  }
+
+  function showScreen(name) {
+    document.querySelectorAll('.screen').forEach(el => el.classList.remove('active'));
+    const map = {
+      title: 'screen-title',
+      market: 'screen-game',
+      game: 'screen-game',
+      end: 'screen-end',
+      scores: 'screen-scores'
+    };
+    const id = map[name] || map.game;
+    $(id).classList.add('active');
+    closeModal();
+    if (name === 'title') updateContinueBtn();
+  }
+
+  function setTab(tab) {
+    activeTab = tab || 'city';
+    document.querySelectorAll('.top-tab').forEach(btn => {
+      const on = btn.getAttribute('data-tab') === activeTab;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    document.querySelectorAll('.tab-panel').forEach(panel => {
+      panel.classList.toggle('active', panel.id === 'tab-' + activeTab);
+    });
+    if (state) renderMarket();
+  }
+
+  function repFromNet(s) {
+    const n = Math.max(0, netWorth(s || state || { cash: 0, bank: 0, debt: 0 }));
+    return Math.min(999, Math.floor(Math.sqrt(n / 80)));
+  }
+
+  function sparklineSvg(hist, color) {
+    const w = 56, h = 22, pad = 2;
+    const pts = (hist || []).filter(v => v > 0);
+    if (pts.length < 2) {
+      return '<svg class="mkt-spark" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true">' +
+        '<line x1="' + pad + '" y1="' + (h/2) + '" x2="' + (w-pad) + '" y2="' + (h/2) +
+        '" stroke="' + color + '" stroke-width="1.5" opacity="0.35"/></svg>';
+    }
+    const min = Math.min.apply(null, pts);
+    const max = Math.max.apply(null, pts);
+    const span = Math.max(1, max - min);
+    const step = (w - pad * 2) / (pts.length - 1);
+    let d = '';
+    pts.forEach((v, i) => {
+      const x = pad + i * step;
+      const y = pad + (1 - (v - min) / span) * (h - pad * 2);
+      d += (i ? 'L' : 'M') + x.toFixed(1) + ' ' + y.toFixed(1);
+    });
+    return '<svg class="mkt-spark" viewBox="0 0 ' + w + ' ' + h + '" aria-hidden="true">' +
+      '<path d="' + d + '" fill="none" stroke="' + color + '" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  }
+
+  function priceChange(p) {
+    const hist = (state.priceHistory && state.priceHistory[p.id]) || [];
+    const cur = state.prices[p.id] || 0;
+    if (!state.available[p.id] || cur <= 0) return { pct: 0, dir: 'flat', label: '—' };
+    let prev = 0;
+    if (hist.length >= 2) prev = hist[hist.length - 2];
+    else if (hist.length === 1 && hist[0] !== cur) prev = hist[0];
+    else prev = Math.floor((p.min + p.max) / 2);
+    if (!prev) return { pct: 0, dir: 'flat', label: '—' };
+    const pct = Math.round(((cur - prev) / prev) * 100);
+    if (pct > 0) return { pct: pct, dir: 'up', label: '+' + pct + '% ↑' };
+    if (pct < 0) return { pct: pct, dir: 'down', label: pct + '% ↓' };
+    return { pct: 0, dir: 'flat', label: '0%' };
+  }
+
+  function rivalActivity() {
+    if (!state) return 0;
+    const used = invUsed(state);
+    const load = state.capacity ? used / state.capacity : 0;
+    const deal = state.dealtToday ? 18 : 0;
+    return clamp(Math.round(load * 70 + deal + (state.guns || 0) * 4), 0, 100);
+  }
+
+  function safetyCopy(h) {
+    const t = heatTier(h);
+    if (t === 'fire') return { cls: 'fire', text: 'Safety: Critical · On Fire' };
+    if (t === 'hot') return { cls: 'hot', text: 'Safety: Low · Hot' };
+    if (t === 'warm') return { cls: 'warm', text: 'Safety: Moderate · Warm' };
+    return { cls: 'cool', text: 'Safety: High · Cool' };
+  }
+
+  function renderMarket() {
+    if (!state) return;
+    setTabUIOnly();
+
+    $('ui-location').textContent = state.location;
+    $('ui-day').textContent = 'Day ' + state.day + ' / ' + MAX_DAYS;
+    $('ui-cash').textContent = fmt(state.cash);
+    const cashE = $('ui-cash-empire');
+    if (cashE) cashE.textContent = fmt(state.cash);
+    $('ui-debt').textContent = fmt(state.debt);
+    $('ui-debt').className = 'value' + (state.debt > 0 ? ' warn' : '');
+    $('ui-bank').textContent = fmt(state.bank || 0);
+    $('ui-guns').textContent = String(state.guns || 0);
+    const used = invUsed(state);
+    $('ui-inv').textContent = used + ' / ' + state.capacity;
+    const freeEl = $('ui-free');
+    if (freeEl) freeEl.textContent = String(freeSpace(state));
+    const netEl = $('ui-net');
+    if (netEl) {
+      const nw = netWorth(state);
+      netEl.textContent = fmt(nw);
+      netEl.className = 'value' + (nw < 0 ? ' danger' : '');
+    }
+    const repEl = $('ui-rep');
+    if (repEl) repEl.textContent = String(repFromNet(state));
+
+    const h = state.heat || 0;
+    const tier = heatTier(h);
+    const heatEl = $('ui-heat');
+    heatEl.textContent = heatLabel(h);
+    heatEl.className = 'heat-big ' + tier;
+    $('ui-heat-num').textContent = heatDisplay(h) + ' / 10';
+
+    const saf = safetyCopy(h);
+    const safEl = $('ui-safety');
+    if (safEl) { safEl.textContent = saf.text; safEl.className = 'city-safety ' + saf.cls; }
+
+    const police = clamp(Math.round(h), 0, 100);
+    const rival = rivalActivity();
+    const mp = $('meter-police');
+    const mr = $('meter-rival');
+    if (mp) mp.style.width = police + '%';
+    if (mr) mr.style.width = rival + '%';
+    const mpv = $('meter-police-val');
+    const mrv = $('meter-rival-val');
+    if (mpv) mpv.textContent = police + '%';
+    if (mrv) mrv.textContent = rival + '%';
+
+    const sky = $('city-sky');
+    if (sky) {
+      sky.className = 'city-sky ' + (LOC_SKY[state.location] || 'loc-bronx');
+    }
+
+    const dot = $('wanted-dot');
+    if (dot) dot.classList.toggle('on', tier === 'hot' || tier === 'fire');
+
+    if (!state.rumor) generateRumor();
+    const banner = $('rumor-banner');
+    const r = state.rumor;
+    $('ui-rumor-short').textContent = r ? r.short : 'No tip today';
+    $('ui-rumor-full').textContent = r ? r.full : '';
+    if (state.rumorExpanded) {
+      banner.classList.add('expanded');
+      banner.setAttribute('aria-expanded', 'true');
+    } else {
+      banner.classList.remove('expanded');
+      banner.setAttribute('aria-expanded', 'false');
+    }
+
+    const dealLoc = $('ui-deal-loc');
+    if (dealLoc) dealLoc.textContent = state.location + ' · Day ' + state.day;
+
+    renderCityMarketPreview();
+    renderDealList();
+    renderInvPanel();
+    renderEmpirePanel();
+    renderWantedPanel();
+  }
+
+  function setTabUIOnly() {
+    document.querySelectorAll('.top-tab').forEach(btn => {
+      const on = btn.getAttribute('data-tab') === activeTab;
+      btn.classList.toggle('active', on);
+      btn.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    document.querySelectorAll('.tab-panel').forEach(panel => {
+      panel.classList.toggle('active', panel.id === 'tab-' + activeTab);
+    });
+  }
+
+  function productRowHtml(p, withActions) {
+    const qty = state.inv[p.id] || 0;
+    const avail = state.available[p.id];
+    const price = state.prices[p.id] || 0;
+    const chg = priceChange(p);
+    const hist = (state.priceHistory && state.priceHistory[p.id]) || [];
+    const col = p.color || '#3dff7a';
+    let priceHtml = avail ? fmt(price) : '—';
+    let actions = '';
+    if (withActions) {
+      actions =
+        '<div class="mkt-actions">' +
+          '<button type="button" class="sm" data-act="buy" data-id="' + p.id + '"' +
+            (!avail ? ' disabled' : '') + '>Buy</button>' +
+          '<button type="button" class="sm" data-act="sell" data-id="' + p.id + '"' +
+            ((qty <= 0 || !avail) ? ' disabled' : '') + '>Sell</button>' +
+        '</div>';
+    }
+    return (
+      '<div class="mkt-row' + (avail ? '' : ' unavailable') + '" style="border-color:' + col + '22">' +
+        '<div class="mkt-icon" style="background:' + col + '18;border-color:' + col + '44">' + p.emoji + '</div>' +
+        '<div class="mkt-info">' +
+          '<div class="mkt-name" style="color:' + col + '">' + p.name + '</div>' +
+          '<div class="mkt-meta">Have ×' + qty + (avail ? '' : ' · unavailable') + '</div>' +
+        '</div>' +
+        '<div class="mkt-right">' +
+          '<div class="mkt-price" style="color:' + col + '">' + priceHtml + '</div>' +
+          sparklineSvg(hist, col) +
+          '<div class="mkt-chg ' + chg.dir + '">' + (avail ? chg.label : '—') + '</div>' +
+        '</div>' +
+        actions +
+      '</div>'
+    );
+  }
+
+  function renderCityMarketPreview() {
+    const list = $('city-market-list');
+    if (!list) return;
+    list.innerHTML = PRODUCTS.slice(0, 5).map(p => productRowHtml(p, false)).join('');
+  }
+
+  function renderDealList() {
+    const list = $('product-list');
+    if (!list) return;
+    list.innerHTML = PRODUCTS.map(p => {
+      const qty = state.inv[p.id] || 0;
+      const avail = state.available[p.id];
+      const price = state.prices[p.id] || 0;
+      const chg = priceChange(p);
+      const hist = (state.priceHistory && state.priceHistory[p.id]) || [];
+      const col = p.color || '#3dff7a';
+      return (
+        '<div class="deal-row' + (avail ? '' : ' unavailable') + '" style="opacity:' + (avail ? '1' : '0.45') + '">' +
+          '<div class="deal-top">' +
+            '<div class="mkt-icon" style="background:' + col + '18;border-color:' + col + '44">' + p.emoji + '</div>' +
+            '<div class="mkt-info">' +
+              '<div class="mkt-name" style="color:' + col + '">' + p.name + '</div>' +
+              '<div class="mkt-meta">Have ×' + qty + ' · Mid ~' + fmt(Math.floor((p.min+p.max)/2)) + '</div>' +
+            '</div>' +
+            '<div class="mkt-right">' +
+              '<div class="mkt-price" style="color:' + col + '">' + (avail ? fmt(price) : '—') + '</div>' +
+              sparklineSvg(hist, col) +
+              '<div class="mkt-chg ' + chg.dir + '">' + (avail ? chg.label : 'n/a') + '</div>' +
+            '</div>' +
+          '</div>' +
+          '<div class="mkt-actions">' +
+            '<button type="button" class="sm primary" data-act="buy" data-id="' + p.id + '"' +
+              (!avail ? ' disabled' : '') + '>Buy</button>' +
+            '<button type="button" class="sm" data-act="sell" data-id="' + p.id + '"' +
+              ((qty <= 0 || !avail) ? ' disabled' : '') + '>Sell</button>' +
+          '</div>' +
+        '</div>'
+      );
+    }).join('');
+  }
+
+  function renderInvPanel() {
+    const list = $('inv-panel-list');
+    if (!list) return;
+    let html = '';
+    let any = false;
+    PRODUCTS.forEach(p => {
+      const q = state.inv[p.id] || 0;
+      if (q > 0) {
+        any = true;
+        html += '<div class="inv-item"><span>' + p.emoji + ' ' + p.name +
+          '</span><span class="qty">×' + q + '</span></div>';
+      }
+    });
+    if (state.guns > 0) {
+      any = true;
+      html += '<div class="inv-item"><span>🔫 Guns</span><span class="qty">×' + state.guns +
+        ' (' + gunSlots(state.guns) + ' slots)</span></div>';
+    }
+    if (!any) html = '<p class="empty-msg">Coat is empty. Hit Deal and scoop a bargain.</p>';
+    list.innerHTML = html;
+  }
+
+  function renderEmpirePanel() {
+    const inBronx = state.location === HOME;
+    const cta = $('empire-bronx-cta');
+    const svc = $('empire-services');
+    if (cta) cta.style.display = inBronx ? 'none' : 'block';
+    if (svc) svc.style.display = inBronx ? 'block' : 'none';
+    const bankHere = $('svc-bank-here');
+    if (bankHere) bankHere.textContent = fmt(state.bank || 0);
+    const stashHere = $('svc-stash-here');
+    if (stashHere) stashHere.textContent = stashTotal() + ' units';
+    const sharkHere = $('svc-shark-here');
+    if (sharkHere) sharkHere.textContent = state.debt > 0 ? fmt(state.debt) + ' owed' : 'clear';
+
+    const stats = $('empire-stats');
+    if (stats) {
+      stats.innerHTML =
+        '<div class="tip-card"><strong>Day</strong> ' + state.day + ' / ' + MAX_DAYS +
+          ' · <strong>Loc</strong> ' + state.location + '</div>' +
+        '<div class="tip-card"><strong>Coat</strong> ' + invUsed(state) + ' / ' + state.capacity +
+          ' · <strong>Coats bought</strong> ' + (state.coatsBought || 0) + '</div>' +
+        '<div class="tip-card"><strong>Health</strong> ' + (state.health || 100) +
+          ' · <strong>Rep</strong> ' + repFromNet(state) + ' (cosmetic, from net worth)</div>' +
+        '<div class="tip-card"><strong>Stash</strong> ' + stashTotal() + ' units parked in the Bronx</div>';
+    }
+  }
+
+  function renderWantedPanel() {
+    const h = state.heat || 0;
+    const tier = heatTier(h);
+    const blurb = $('wanted-blurb');
+    if (blurb) {
+      const lines = {
+        cool: 'Officer Hardass is sipping coffee. For now.',
+        warm: 'Scanner chatter. Stay light and keep deposits flowing.',
+        hot: 'Hardass is prowling. Travel light or bring iron.',
+        fire: 'Your name is everywhere. Expect badges, busts, and bad deals.'
+      };
+      blurb.textContent = lines[tier] || lines.cool;
+    }
+    const tips = $('wanted-tips');
+    if (tips) {
+      tips.innerHTML =
+        '<div class="tip-card"><strong>Travel light.</strong> A full coat raises heat when you jet. Dump into the Bronx stash.</div>' +
+        '<div class="tip-card"><strong>Bank big deposits.</strong> Parking cash in the Bronx cools you off.</div>' +
+        '<div class="tip-card"><strong>Skip dealing a day.</strong> Jetting without a deal decays heat faster.</div>' +
+        '<div class="tip-card"><strong>Guns help vs Hardass</strong> — but fighting spikes heat hard.</div>' +
+        '<div class="tip-card"><strong>Heat now:</strong> ' + heatDisplay(h) + '/10 · Police meter ' +
+          Math.round(h) + '% · Rival (coat risk) ' + rivalActivity() + '%</div>';
+    }
+  }
+
+  function openModal(title, bodyHtml, footerHtml, footerClass) {
+    $('modal-title').textContent = title;
+    $('modal-body').innerHTML = bodyHtml;
+    $('modal-footer').innerHTML = footerHtml;
+    $('modal-footer').className = 'modal-footer' + (footerClass ? ' ' + footerClass : '');
+    $('modal').classList.add('active');
+  }
+
+  function closeModal() {
+    $('modal').classList.remove('active');
+    modalMode = null;
+    tradeProduct = null;
+    tradeSide = null;
+  }
+
+  function openTrade(productId, side) {
+    const p = PRODUCTS.find(x => x.id === productId);
+    if (!p) return;
+    tradeProduct = p;
+    tradeSide = side;
+    modalMode = 'trade';
+
+    const price = state.prices[p.id] || 0;
+    const have = state.inv[p.id] || 0;
+    const free = freeSpace(state);
+
+    let maxQty = 0;
+    if (side === 'buy') {
+      if (!state.available[p.id] || price <= 0) {
+        toast('Not for sale here', 'warn');
+        return;
+      }
+      maxQty = Math.min(free, Math.floor(state.cash / price));
+      if (maxQty <= 0) {
+        toast(free <= 0 ? 'Coat is full!' : 'Not enough cash!', 'warn');
+        return;
+      }
+    } else {
+      if (!state.available[p.id] || price <= 0) {
+        toast('No buyers today', 'warn');
+        return;
+      }
+      maxQty = have;
+      if (maxQty <= 0) {
+        toast('You have none', 'warn');
+        return;
+      }
+    }
+
+    const defaultQty = Math.min(maxQty, side === 'buy' ? Math.max(1, Math.floor(maxQty / 4)) : maxQty);
+
+    openModal(
+      (side === 'buy' ? 'Buy ' : 'Sell ') + p.emoji + ' ' + p.name,
+      '<div class="trade-summary">Price: <strong>' + fmt(price) + '</strong> · Have: <strong>' + have +
+        '</strong> · Free: <strong>' + free + '</strong></div>' +
+      '<div class="qty-controls">' +
+        '<button type="button" class="sm" id="qty-minus" aria-label="Decrease">−</button>' +
+        '<input type="number" id="qty-input" inputmode="numeric" min="1" max="' + maxQty + '" value="' + defaultQty + '" aria-label="Quantity">' +
+        '<button type="button" class="sm" id="qty-plus" aria-label="Increase">+</button>' +
+      '</div>' +
+      '<div class="trade-summary" id="trade-total">Total: <strong>' + fmt(price * defaultQty) + '</strong></div>' +
+      '<div class="hint">Max: ' + maxQty + '</div>',
+      '<button type="button" class="primary" id="qty-max">Max (' + maxQty + ')</button>' +
+      '<div style="display:flex;gap:8px;">' +
+        '<button type="button" class="ghost" id="modal-cancel" style="flex:1;">Cancel</button>' +
+        '<button type="button" class="primary" id="modal-confirm-trade" style="flex:1;">' +
+          (side === 'buy' ? 'Buy' : 'Sell') + '</button>' +
+      '</div>'
+    );
+
+    const input = $('qty-input');
+    function refreshTotal() {
+      let q = parseInt(input.value, 10);
+      if (isNaN(q)) q = 1;
+      q = clamp(q, 1, maxQty);
+      input.value = q;
+      $('trade-total').innerHTML = 'Total: <strong>' + fmt(price * q) + '</strong>';
+    }
+    $('qty-minus').onclick = () => { input.value = clamp((parseInt(input.value, 10) || 1) - 1, 1, maxQty); refreshTotal(); };
+    $('qty-plus').onclick = () => { input.value = clamp((parseInt(input.value, 10) || 1) + 1, 1, maxQty); refreshTotal(); };
+    $('qty-max').onclick = () => { input.value = maxQty; refreshTotal(); };
+    input.oninput = refreshTotal;
+    $('modal-cancel').onclick = closeModal;
+    $('modal-confirm-trade').onclick = () => {
+      let q = parseInt(input.value, 10);
+      if (isNaN(q) || q < 1) { toast('Invalid qty', 'warn'); return; }
+      executeTrade(p.id, side, q);
+    };
+  }
+
+  function executeTrade(productId, side, qty) {
+    qty = Math.floor(Number(qty));
+    if (!qty || qty < 1 || isNaN(qty)) {
+      toast('Invalid quantity', 'warn');
+      return;
+    }
+    const price = state.prices[productId] || 0;
+    const have = state.inv[productId] || 0;
+
+    if (side === 'buy') {
+      if (!state.available[productId] || price <= 0) {
+        toast('Unavailable', 'warn');
+        return;
+      }
+      const cost = price * qty;
+      const free = freeSpace(state);
+      if (qty > free) { toast('Not enough coat space', 'warn'); return; }
+      if (cost > state.cash) { toast('Not enough cash', 'warn'); return; }
+      state.cash -= cost;
+      state.inv[productId] = have + qty;
+      state.dealtToday = true;
+      if (qty >= 15 || cost >= 3000) addHeat(randInt(3, 8), true);
+      else if (qty >= 8 || cost >= 1200) addHeat(randInt(1, 4), true);
+      toast('Bought ' + qty + ' · −' + fmt(cost));
+    } else {
+      if (!state.available[productId] || price <= 0) {
+        toast('No buyers today', 'warn');
+        return;
+      }
+      if (qty > have) { toast("Can't sell that many", 'warn'); return; }
+      const rev = price * qty;
+      state.cash += rev;
+      state.inv[productId] = have - qty;
+      state.dealtToday = true;
+      if (qty >= 15 || rev >= 3000) addHeat(randInt(3, 8), true);
+      else if (qty >= 8 || rev >= 1200) addHeat(randInt(1, 4), true);
+      toast('Sold ' + qty + ' · +' + fmt(rev));
+    }
+    save();
+    closeModal();
+    renderMarket();
+  }
+
+  function openTravel() {
+    modalMode = 'travel';
+    let html = '<p class="hint" style="margin-bottom:10px;">Jetting costs 1 day. Debt +~10%. Bank deposits +~5%. Prices reshuffle. Events may happen.</p><div class="loc-list">';
+    LOCATIONS.forEach(loc => {
+      const here = loc === state.location;
+      html += '<button type="button" class="loc-btn' + (here ? ' current' : '') + '" data-loc="' + loc + '"' +
+        (here ? ' disabled' : '') + '>' +
+        '<span>' + loc + (loc === HOME ? ' 🏠' : '') + '</span>' +
+        (here ? '<span class="here">YOU ARE HERE</span>' : '<span class="here">→ jet</span>') +
+        '</button>';
+    });
+    html += '</div>';
+    openModal('🚇 Jet', html,
+      '<button type="button" class="ghost block" id="modal-cancel">Stay Here</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    document.querySelectorAll('[data-loc]').forEach(btn => {
+      btn.onclick = () => travelTo(btn.getAttribute('data-loc'));
+    });
+  }
+
+  function travelTo(loc) {
+    if (loc === state.location) return;
+    closeModal();
+
+    const drugs = drugSlots(state.inv);
+    if (drugs >= 50) addHeat(randInt(6, 12), true);
+    else if (drugs >= 25) addHeat(randInt(3, 7), true);
+    else if (drugs >= 10) addHeat(randInt(1, 3), true);
+    else if (drugs <= 2) addHeat(-randInt(1, 3), true);
+
+    // Daily cool-off; extra if you skipped dealing
+    let decay = randInt(1, 3);
+    if (!state.dealtToday) decay += randInt(1, 2);
+    addHeat(-decay, true);
+    state.dealtToday = false;
+
+    applyDailyInterest();
+    state.day += 1;
+    state.location = loc;
+    rollPrices();
+    generateRumor();
+
+    if (state.day > MAX_DAYS) {
+      endGame('time');
+      return;
+    }
+
+    const heat = state.heat || 0;
+    let eventChance = 0.58 + (heat - 30) * 0.0035;
+    if (heat < 20) eventChance -= 0.08;
+    eventChance = clamp(eventChance, 0.32, 0.78);
+
+    if (chance(eventChance)) {
+      save();
+      renderMarket();
+      triggerRandomEvent();
+    } else {
+      save();
+      renderMarket();
+      toast('Arrived in ' + loc + (heat < 20 ? ' · low heat' : ''));
+    }
+  }
+
+  function applyDailyInterest() {
+    if (state.debt > 0) {
+      state.debt += Math.ceil(state.debt * DEBT_INTEREST);
+    }
+    if (state.bank > 0) {
+      state.bank += Math.floor(state.bank * BANK_INTEREST);
+    }
+  }
+
+  function triggerRandomEvent() {
+    const events = buildEvents();
+    let total = events.reduce((s, e) => s + e.w, 0);
+    let r = Math.random() * total;
+    let chosen = events[0];
+    for (const e of events) {
+      r -= e.w;
+      if (r <= 0) { chosen = e; break; }
+    }
+    chosen.run();
+  }
+
+  function buildEvents() {
+    const events = [];
+
+    const heat = state.heat || 0;
+    events.push({
+      w: 14 + Math.floor(heat / 5),
+      run: () => {
+        const deputies = randInt(1, heat >= 70 ? 4 : 3);
+        const fine = randInt(200, 900) + (heat >= 50 ? randInt(50, 250) : 0);
+        const heavy = drugSlots(state.inv) > 20;
+        showEvent('🚔', 'Officer Hardass!',
+          'Sirens. ' + deputies + ' deputy' + (deputies > 1 ? 's' : '') + '. Hardass wants a "donation" of ' +
+          fmt(fine) + (heavy ? ' — and your coat looks suspiciously lumpy.' : '.') +
+          (state.guns > 0 ? ' You have ' + state.guns + ' gun(s).' : ' No guns. Running looks wise.'),
+          buildCopChoices(fine, deputies)
+        );
+      }
+    });
+
+    events.push({
+      w: 10 + Math.floor(heat / 8),
+      run: () => {
+        const loss = Math.min(state.cash, randInt(100, Math.max(150, Math.floor(state.cash * 0.35))));
+        showEvent('🔫', 'Mugged on the Subway!',
+          'A shadowy figure wants your wallet. (Bank deposits are safe. Carry cash at your own arcade peril.)',
+          [
+            {
+              label: 'Hand over ' + fmt(loss),
+              cls: 'warn',
+              fn: () => {
+                state.cash -= loss;
+                toast('−' + fmt(loss), 'danger');
+                afterEvent();
+              }
+            },
+            {
+              label: state.guns > 0 ? 'Brandish gun' : 'Fight back',
+              cls: 'danger',
+              fn: () => {
+                const winChance = state.guns > 0 ? 0.7 : 0.35;
+                if (chance(winChance)) {
+                  const win = randInt(50, 350);
+                  state.cash += win;
+                  toast('You won? +' + fmt(win));
+                } else {
+                  const extra = Math.min(state.cash, loss + randInt(50, 200));
+                  state.cash -= extra;
+                  if (drugSlots(state.inv) > 0 && chance(0.25)) wipeDrugs();
+                  toast('Ouch · −' + fmt(extra), 'danger');
+                }
+                afterEvent();
+              }
+            }
+          ]
+        );
+      }
+    });
+
+    events.push({
+      w: 11,
+      run: () => {
+        const price = COAT_BASE_PRICE + state.coatsBought * 150 + randInt(0, 100);
+        const bump = COAT_CAPACITY_BUMP;
+        showEvent('🧥', 'Trenchcoat Vendor',
+          'Alley couture: +' + bump + ' pockets for ' + fmt(price) +
+          '. Current capacity: ' + state.capacity + '.',
+          [
+            {
+              label: 'Buy coat (' + fmt(price) + ')',
+              cls: 'primary',
+              fn: () => {
+                if (state.cash < price) {
+                  toast('Too broke for fashion', 'warn');
+                  afterEvent();
+                  return;
+                }
+                state.cash -= price;
+                state.capacity += bump;
+                state.coatsBought += 1;
+                toast('New coat! Cap ' + state.capacity);
+                afterEvent();
+              }
+            },
+            { label: 'No thanks', cls: 'ghost', fn: afterEvent }
+          ]
+        );
+      }
+    });
+
+    events.push({
+      w: 10,
+      run: () => {
+        const price = GUN_BASE_PRICE + state.guns * 80 + randInt(0, 120);
+        const free = freeSpace(state);
+        showEvent('🔫', 'Someone Selling Guns',
+          'A discreet vendor offers a piece for ' + fmt(price) +
+          '. Each gun takes ' + GUN_SLOTS + ' coat slots. Free space: ' + free +
+          '. Handy vs Hardass. Also heavy.',
+          [
+            {
+              label: free >= GUN_SLOTS && state.cash >= price
+                ? 'Buy gun (' + fmt(price) + ')'
+                : (free < GUN_SLOTS ? 'Need ' + GUN_SLOTS + ' free slots' : 'Too broke'),
+              cls: free >= GUN_SLOTS && state.cash >= price ? 'primary' : 'ghost',
+              fn: () => {
+                if (free < GUN_SLOTS) { toast('Need coat space', 'warn'); afterEvent(); return; }
+                if (state.cash < price) { toast('Need ' + fmt(price), 'warn'); afterEvent(); return; }
+                state.cash -= price;
+                state.guns += 1;
+                toast('Gun #' + state.guns + ' acquired');
+                afterEvent();
+              }
+            },
+            { label: 'Pass', cls: 'ghost', fn: afterEvent }
+          ]
+        );
+      }
+    });
+
+    events.push({
+      w: 8,
+      run: () => {
+        const have = state.inv.weed || 0;
+        if (have <= 0) {
+          showEvent('🍪', 'Mom Called',
+            '"Got any… baking supplies?" You do not. She hangs up. Brownies remain theoretical.',
+            [{ label: 'Sorry, Mom', cls: 'ghost', fn: afterEvent }]
+          );
+          return;
+        }
+        const take = Math.min(have, randInt(1, Math.min(5, have)));
+        showEvent('🍪', 'Mom Needs Weed',
+          'Mom wants ' + take + '× Weed for "brownies." She will not be paying street rates. Family tax.',
+          [
+            {
+              label: 'Hand over ' + take + ' Weed',
+              cls: 'primary',
+              fn: () => {
+                state.inv.weed -= take;
+                toast('Mom owes you brownies · −' + take + ' Weed', 'warn');
+                afterEvent();
+              }
+            },
+            {
+              label: 'Pretend you\'re out',
+              cls: 'ghost',
+              fn: () => {
+                toast('Mom is disappointed. Also suspicious.');
+                afterEvent();
+              }
+            }
+          ]
+        );
+      }
+    });
+
+    events.push({
+      w: 11,
+      run: () => {
+        const p = pick(PRODUCTS);
+        const dealPrice = Math.max(1, Math.floor(p.min * randInt(20, 45) / 100));
+        state.prices[p.id] = dealPrice;
+        state.available[p.id] = true;
+        recordPrice(p.id, dealPrice);
+        showEvent('💎', 'Market Flood!',
+          'Somebody dumped a truckload. <strong>' + p.name + '</strong> is dirt cheap at ' +
+          fmt(dealPrice) + ' in ' + state.location + '!',
+          [{ label: 'Stock up?', cls: 'primary', fn: () => { renderMarket(); afterEvent(); } }]
+        );
+      }
+    });
+
+    events.push({
+      w: 10,
+      run: () => {
+        const owned = PRODUCTS.filter(x => (state.inv[x.id] || 0) > 0);
+        const p = owned.length ? pick(owned) : pick(PRODUCTS);
+        const hi = Math.floor(p.max * randInt(160, 260) / 100);
+        state.prices[p.id] = hi;
+        state.available[p.id] = true;
+        recordPrice(p.id, hi);
+        showEvent('📈', 'Cops Bust Elsewhere!',
+          'A raid across town dried up supply. <strong>' + p.name + '</strong> spiked to ' +
+          fmt(hi) + '!' + ((state.inv[p.id] || 0) > 0 ? ' Dump inventory?' : ' Ugly buy price.'),
+          [{ label: 'Got it', cls: 'primary', fn: () => { renderMarket(); afterEvent(); } }]
+        );
+      }
+    });
+
+    events.push({
+      w: 7,
+      run: () => {
+        const found = randInt(50, 400);
+        showEvent('💵', 'Lucky Find!',
+          'Wallet under a subway grate. Arcade morality says… +' + fmt(found),
+          [{
+            label: 'Yoink (+' + fmt(found) + ')',
+            cls: 'primary',
+            fn: () => { state.cash += found; toast('+' + fmt(found)); afterEvent(); }
+          }]
+        );
+      }
+    });
+
+    events.push({
+      w: 6,
+      run: () => {
+        const p = pick(PRODUCTS);
+        const qty = randInt(1, 5);
+        const free = freeSpace(state);
+        showEvent('🎁', 'Abandoned Stash',
+          'You find ' + qty + '× ' + p.name + ' behind a dumpster. Gross. Profitable?',
+          [
+            {
+              label: free >= qty ? 'Take it' : 'Coat full — leave it',
+              cls: free >= qty ? 'primary' : 'ghost',
+              fn: () => {
+                if (free >= qty) {
+                  state.inv[p.id] = (state.inv[p.id] || 0) + qty;
+                  toast('+' + qty + ' ' + p.name);
+                }
+                afterEvent();
+              }
+            }
+          ]
+        );
+      }
+    });
+
+    if (state.debt > 0) {
+      events.push({
+        w: 5,
+        run: () => {
+          showEvent('🦈', 'Shark Text',
+            '" rem:' + Math.ceil(state.debt).toLocaleString('en-US') + ' b4 kneecaps. Bronx only. thx" — Unknown',
+            [{ label: 'Sweat nervously', cls: 'warn', fn: afterEvent }]
+          );
+        }
+      });
+    }
+
+    events.push({
+      w: 5 + (heat < 25 ? 6 : 0),
+      run: () => {
+        const lines = [
+          'A pigeon steals your fries. The streets are quiet otherwise.',
+          'Two tourists argue about bagels. You stay professional.',
+          'Rain starts. Your coat smells like ambition and regret.',
+          'Someone yells "MOVIE!" You keep jetting. Focus.',
+          'A newsstand headline: LOCAL ECONOMY "FINE," SAYS GUY WITH BRIEFCASE.'
+        ];
+        showEvent('🌃', 'Uneventful…',
+          pick(lines),
+          [{ label: 'Carry on', cls: 'primary', fn: afterEvent }]
+        );
+      }
+    });
+
+    return events;
+  }
+
+  function buildCopChoices(fine, deputies) {
+    const choices = [];
+    choices.push({
+      label: 'Pay them off (' + fmt(fine) + ')',
+      cls: 'primary',
+      fn: () => {
+        if (state.cash >= fine) {
+          state.cash -= fine;
+          toast('Paid off · −' + fmt(fine), 'warn');
+        } else {
+          state.cash = 0;
+          if (drugSlots(state.inv) > 0 && chance(0.55)) {
+            wipeDrugs();
+            toast('Broke + goods seized!', 'danger');
+          } else {
+            toast('Took all your cash', 'danger');
+          }
+        }
+        afterEvent();
+      }
+    });
+    choices.push({
+      label: 'Run!',
+      cls: 'warn',
+      fn: () => {
+        const escape = 0.5 - deputies * 0.08;
+        if (chance(Math.max(0.2, escape))) {
+          toast('You got away!', 'warn');
+          afterEvent();
+        } else {
+          wipeDrugs();
+          const beat = randInt(100, 500);
+          state.cash = Math.max(0, state.cash - beat);
+          state.health = Math.max(0, state.health - randInt(10, 25));
+          toast('Caught! Coat emptied · −' + fmt(beat), 'danger');
+          if (state.health <= 0) { afterEvent(); endGame('dead'); return; }
+          afterEvent();
+        }
+      }
+    });
+    if (state.guns > 0) {
+      choices.push({
+        label: 'Fight! (' + state.guns + ' gun' + (state.guns > 1 ? 's' : '') + ')',
+        cls: 'danger',
+        fn: () => {
+          addHeat(randInt(8, 14), true);
+          const hitChance = Math.min(0.85, 0.35 + state.guns * 0.18 - deputies * 0.1);
+          if (chance(hitChance)) {
+            const reward = randInt(200, 800) + deputies * 150;
+            state.cash += reward;
+            addHeat(randInt(5, 10), true);
+            toast('Hardass flees! +' + fmt(reward) + ' · heat up');
+            afterEvent();
+          } else {
+            state.health = Math.max(0, state.health - randInt(15, 35));
+            if (chance(0.4)) wipeDrugs();
+            const loss = Math.min(state.cash, randInt(100, 600));
+            state.cash -= loss;
+            addHeat(randInt(3, 7), true);
+            toast('You lose the shootout · −' + fmt(loss), 'danger');
+            if (state.health <= 0) { afterEvent(); endGame('dead'); return; }
+            afterEvent();
+          }
+        }
+      });
+    }
+    return choices;
+  }
+
+  function wipeDrugs() {
+    PRODUCTS.forEach(p => { state.inv[p.id] = 0; });
+  }
+
+  function showEvent(icon, title, text, choices) {
+    modalMode = 'event';
+    let body = '<div class="event-icon">' + icon + '</div><p class="event-text">' + text + '</p>';
+    let foot = '';
+    choices.forEach((c, i) => {
+      foot += '<button type="button" class="' + (c.cls || '') + ' block" data-choice="' + i + '">' +
+        c.label + '</button>';
+    });
+    openModal(title, body, foot);
+    choices.forEach((c, i) => {
+      document.querySelector('[data-choice="' + i + '"]').onclick = () => c.fn();
+    });
+  }
+
+  function afterEvent() {
+    closeModal();
+    save();
+    renderMarket();
+    checkBankrupt();
+  }
+
+  function checkBankrupt() {
+    if (!state || state.over) return;
+    if (state.cash <= 0 && state.bank <= 0 && drugSlots(state.inv) === 0 &&
+        stashTotal() === 0 && state.debt > 25000) {
+      endGame('broke');
+    }
+  }
+
+  function stashTotal() {
+    return PRODUCTS.reduce((s, p) => s + ((state.stash && state.stash[p.id]) || 0), 0);
+  }
+
+  function requireBronx(svc) {
+    if (state.location !== HOME) {
+      toast(svc + ' only in the Bronx', 'warn');
+      return false;
+    }
+    return true;
+  }
+
+  function openBronxHub() {
+    if (!requireBronx('Services')) return;
+    modalMode = 'bronx';
+    openModal('🏠 Bronx Services',
+      '<p class="event-text">Home turf. Shark, bank, and stash — classic Dell layout.</p>' +
+      '<div class="svc-list">' +
+        '<button type="button" class="svc-btn" id="svc-shark"><span>🦈 Loan Shark</span><span class="here">pay / borrow</span></button>' +
+        '<button type="button" class="svc-btn" id="svc-bank"><span>🏦 Bank</span><span class="here">' + fmt(state.bank) + '</span></button>' +
+        '<button type="button" class="svc-btn" id="svc-stash"><span>📦 Stash</span><span class="here">' + stashTotal() + ' units</span></button>' +
+      '</div>',
+      '<button type="button" class="ghost block" id="modal-cancel">Close</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('svc-shark').onclick = () => { closeModal(); openShark(); };
+    $('svc-bank').onclick = () => { closeModal(); openBank(); };
+    $('svc-stash').onclick = () => { closeModal(); openStash(); };
+  }
+
+  function openShark() {
+    if (!requireBronx('Loan Shark')) return;
+    modalMode = 'shark';
+    const debt = state.debt;
+    openModal('🦈 Loan Shark',
+      '<p class="event-text">' + pick(SHARK_LINES) + '</p>' +
+      '<div class="trade-summary">Debt: <strong>' + fmt(debt) + '</strong></div>' +
+      '<div class="trade-summary">Cash: <strong>' + fmt(state.cash) + '</strong></div>' +
+      '<p class="hint">Repay or borrow (max ' + fmt(MAX_BORROW) + ' per visit). ~10%/day interest. Bronx only.</p>',
+      '<button type="button" class="primary block" id="shark-pay"' +
+        (state.cash <= 0 || debt <= 0 ? ' disabled' : '') + '>Repay…</button>' +
+      '<button type="button" class="warn block" id="shark-borrow">Borrow…</button>' +
+      '<button type="button" class="ghost block" id="modal-cancel">Leave</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('shark-pay').onclick = () => openMoneyPrompt('pay');
+    $('shark-borrow').onclick = () => openMoneyPrompt('borrow');
+  }
+
+  function openMoneyPrompt(kind) {
+    const isPay = kind === 'pay';
+    const maxPay = Math.min(state.cash, state.debt);
+    const maxBorrow = MAX_BORROW;
+    const defaultAmt = isPay
+      ? Math.min(maxPay, Math.max(1, Math.floor(maxPay)))
+      : Math.min(1000, maxBorrow);
+
+    openModal(
+      isPay ? '🦈 Repay Debt' : '🦈 Borrow Cash',
+      '<div class="trade-summary">' +
+        (isPay
+          ? 'Debt <strong>' + fmt(state.debt) + '</strong> · Can pay up to <strong>' + fmt(maxPay) + '</strong>'
+          : 'Borrow up to <strong>' + fmt(maxBorrow) + '</strong> (added to debt)') +
+      '</div>' +
+      '<input type="number" class="money-input" id="money-input" inputmode="numeric" min="1" value="' + defaultAmt + '" aria-label="Amount">' +
+      '<div class="hint" id="money-hint"></div>',
+      '<button type="button" class="primary block" id="money-max">' +
+        (isPay ? 'Pay all possible' : 'Borrow max') + '</button>' +
+      '<div style="display:flex;gap:8px;">' +
+        '<button type="button" class="ghost" id="modal-cancel" style="flex:1;">Cancel</button>' +
+        '<button type="button" class="primary" id="money-go" style="flex:1;">' +
+          (isPay ? 'Repay' : 'Borrow') + '</button>' +
+      '</div>'
+    );
+
+    const input = $('money-input');
+    const max = isPay ? maxPay : maxBorrow;
+    function syncHint() {
+      let a = parseInt(input.value, 10);
+      if (isNaN(a) || a < 1) a = 0;
+      a = clamp(a, 0, max);
+      $('money-hint').textContent = isPay
+        ? 'Will pay ' + fmt(a) + ' → debt ' + fmt(Math.max(0, state.debt - a))
+        : 'Will borrow ' + fmt(a) + ' → debt ' + fmt(state.debt + a);
+    }
+    syncHint();
+    input.oninput = syncHint;
+    $('money-max').onclick = () => { input.value = max; syncHint(); };
+    $('modal-cancel').onclick = () => { closeModal(); openShark(); };
+    $('money-go').onclick = () => {
+      let a = Math.floor(Number(input.value));
+      if (!a || a < 1 || isNaN(a)) { toast('Enter an amount', 'warn'); return; }
+      if (isPay) {
+        a = Math.min(a, state.cash, state.debt);
+        if (a <= 0) { toast('Nothing to pay', 'warn'); return; }
+        state.cash -= a;
+        state.debt -= a;
+        if (state.debt < 0) state.debt = 0;
+        toast('Paid ' + fmt(a) + (state.debt === 0 ? ' · DEBT CLEARED!' : ''));
+      } else {
+        a = Math.min(a, MAX_BORROW);
+        if (a <= 0) { toast('Nope', 'warn'); return; }
+        state.cash += a;
+        state.debt += a;
+        toast('Borrowed ' + fmt(a) + ' · debt ' + fmt(state.debt), 'warn');
+      }
+      save();
+      closeModal();
+      renderMarket();
+    };
+  }
+
+  function openBank() {
+    if (!requireBronx('Bank')) return;
+    modalMode = 'bank';
+    openModal('🏦 Bronx Bank',
+      '<p class="event-text">"Your money is safer here than in your coat," says a teller who has seen things.</p>' +
+      '<div class="trade-summary">Balance: <strong>' + fmt(state.bank) + '</strong></div>' +
+      '<div class="trade-summary">Cash: <strong>' + fmt(state.cash) + '</strong></div>' +
+      '<p class="hint">~5% interest per travel day on deposits. Muggers can\'t touch the bank.</p>',
+      '<button type="button" class="primary block" id="bank-dep"' +
+        (state.cash <= 0 ? ' disabled' : '') + '>Deposit…</button>' +
+      '<button type="button" class="block" id="bank-wd"' +
+        (state.bank <= 0 ? ' disabled' : '') + '>Withdraw…</button>' +
+      '<button type="button" class="ghost block" id="modal-cancel">Leave</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('bank-dep').onclick = () => openBankPrompt('deposit');
+    $('bank-wd').onclick = () => openBankPrompt('withdraw');
+  }
+
+  function openBankPrompt(kind) {
+    const isDep = kind === 'deposit';
+    const max = isDep ? state.cash : state.bank;
+    const defaultAmt = max;
+    openModal(
+      isDep ? '🏦 Deposit' : '🏦 Withdraw',
+      '<div class="trade-summary">Max: <strong>' + fmt(max) + '</strong></div>' +
+      '<input type="number" class="money-input" id="money-input" inputmode="numeric" min="1" value="' + defaultAmt + '">' +
+      '<div class="hint">Bank only in the Bronx. Interest accrues when you jet.</div>',
+      '<button type="button" class="primary block" id="money-max">Max</button>' +
+      '<div style="display:flex;gap:8px;">' +
+        '<button type="button" class="ghost" id="modal-cancel" style="flex:1;">Cancel</button>' +
+        '<button type="button" class="primary" id="money-go" style="flex:1;">' +
+          (isDep ? 'Deposit' : 'Withdraw') + '</button>' +
+      '</div>'
+    );
+    const input = $('money-input');
+    $('money-max').onclick = () => { input.value = max; };
+    $('modal-cancel').onclick = () => { closeModal(); openBank(); };
+    $('money-go').onclick = () => {
+      let a = Math.floor(Number(input.value));
+      if (!a || a < 1 || isNaN(a)) { toast('Enter an amount', 'warn'); return; }
+      if (isDep) {
+        a = Math.min(a, state.cash);
+        state.cash -= a;
+        state.bank += a;
+        if (a >= 500) addHeat(-randInt(3, 7), true);
+        else if (a >= 100) addHeat(-randInt(1, 3), true);
+        toast('Deposited ' + fmt(a) + (a >= 100 ? ' · cooler' : ''));
+      } else {
+        a = Math.min(a, state.bank);
+        state.bank -= a;
+        state.cash += a;
+        toast('Withdrew ' + fmt(a));
+      }
+      save();
+      closeModal();
+      renderMarket();
+    };
+  }
+
+  function openStash() {
+    if (!requireBronx('Stash')) return;
+    if ((state.heat || 0) > 0) addHeat(-randInt(1, 2), true);
+    modalMode = 'stash';
+    let html = '<p class="hint" style="margin-bottom:10px;">Park surplus inventory here (Bronx only). Stash isn\'t stolen by cops or muggers.</p>';
+    html += '<div class="inv-list">';
+    let any = false;
+    PRODUCTS.forEach(p => {
+      const coat = state.inv[p.id] || 0;
+      const st = (state.stash[p.id] || 0);
+      if (coat > 0 || st > 0) {
+        any = true;
+        html += '<div class="inv-item">' +
+          '<span>' + p.emoji + ' ' + p.name +
+          '<br><span style="font-size:0.75rem;color:var(--text-dim)">Coat ×' + coat + ' · Stash ×' + st + '</span></span>' +
+          '<span class="inv-acts">' +
+            '<button type="button" class="sm" data-stash="in" data-id="' + p.id + '"' +
+              (coat <= 0 ? ' disabled' : '') + '>Stash</button>' +
+            '<button type="button" class="sm" data-stash="out" data-id="' + p.id + '"' +
+              (st <= 0 ? ' disabled' : '') + '>Take</button>' +
+          '</span></div>';
+      }
+    });
+    if (!any) html += '<p class="empty-msg">Nothing to stash. Buy something first.</p>';
+    html += '</div>';
+    openModal('📦 Bronx Stash', html,
+      '<button type="button" class="ghost block" id="modal-cancel">Close</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    document.querySelectorAll('[data-stash]').forEach(btn => {
+      btn.onclick = () => {
+        const id = btn.getAttribute('data-id');
+        const dir = btn.getAttribute('data-stash');
+        openStashQty(id, dir);
+      };
+    });
+  }
+
+  function openStashQty(id, dir) {
+    const p = PRODUCTS.find(x => x.id === id);
+    const max = dir === 'in' ? (state.inv[id] || 0) : (state.stash[id] || 0);
+    if (max <= 0) return;
+    const free = freeSpace(state);
+    const maxOut = dir === 'out' ? Math.min(max, free) : max;
+    if (dir === 'out' && free <= 0) {
+      toast('Coat full', 'warn');
+      return;
+    }
+    openModal(
+      (dir === 'in' ? 'Stash ' : 'Take ') + p.emoji + ' ' + p.name,
+      '<div class="trade-summary">Available: <strong>' + max + '</strong>' +
+        (dir === 'out' ? ' · Free coat: <strong>' + free + '</strong>' : '') + '</div>' +
+      '<div class="qty-controls">' +
+        '<button type="button" class="sm" id="qty-minus">−</button>' +
+        '<input type="number" id="qty-input" inputmode="numeric" min="1" max="' + maxOut + '" value="' + maxOut + '">' +
+        '<button type="button" class="sm" id="qty-plus">+</button>' +
+      '</div>',
+      '<button type="button" class="primary block" id="qty-max">Max</button>' +
+      '<div style="display:flex;gap:8px;">' +
+        '<button type="button" class="ghost" id="modal-cancel" style="flex:1;">Cancel</button>' +
+        '<button type="button" class="primary" id="modal-confirm-trade" style="flex:1;">Confirm</button>' +
+      '</div>'
+    );
+    const input = $('qty-input');
+    $('qty-minus').onclick = () => { input.value = clamp((parseInt(input.value, 10) || 1) - 1, 1, maxOut); };
+    $('qty-plus').onclick = () => { input.value = clamp((parseInt(input.value, 10) || 1) + 1, 1, maxOut); };
+    $('qty-max').onclick = () => { input.value = maxOut; };
+    input.oninput = () => {
+      let q = parseInt(input.value, 10);
+      if (isNaN(q)) q = 1;
+      input.value = clamp(q, 1, maxOut);
+    };
+    $('modal-cancel').onclick = () => { closeModal(); openStash(); };
+    $('modal-confirm-trade').onclick = () => {
+      let q = Math.floor(Number(input.value));
+      if (!q || q < 1) return;
+      q = clamp(q, 1, maxOut);
+      if (dir === 'in') {
+        state.inv[id] -= q;
+        state.stash[id] = (state.stash[id] || 0) + q;
+        if (q >= 5) addHeat(-randInt(2, 5), true);
+        else addHeat(-1, true);
+        toast('Stashed ' + q + ' ' + p.name + ' · cooler');
+      } else {
+        state.stash[id] -= q;
+        state.inv[id] = (state.inv[id] || 0) + q;
+        toast('Took ' + q + ' ' + p.name);
+      }
+      save();
+      renderMarket();
+      closeModal();
+      openStash();
+    };
+  }
+
+  function openInventory() {
+    modalMode = 'coat';
+    const used = invUsed(state);
+    let html = '<div class="trade-summary">Capacity: <strong>' + used + ' / ' + state.capacity +
+      '</strong> · Guns: <strong>' + state.guns + '</strong> (−' + gunSlots(state.guns) + ' slots)</div>';
+    html += '<div class="inv-list" style="margin-top:10px;">';
+    let any = false;
+    PRODUCTS.forEach(p => {
+      const q = state.inv[p.id] || 0;
+      if (q > 0) {
+        any = true;
+        html += '<div class="inv-item"><span>' + p.emoji + ' ' + p.name +
+          '</span><span class="qty">×' + q + '</span></div>';
+      }
+    });
+    if (state.guns > 0) {
+      any = true;
+      html += '<div class="inv-item"><span>🔫 Guns</span><span class="qty">×' + state.guns +
+        ' (' + gunSlots(state.guns) + ' slots)</span></div>';
+    }
+    if (!any) html += '<p class="empty-msg">Coat is empty. Time to shop.</p>';
+    html += '</div>';
+    html += '<p class="hint" style="margin-top:12px;">Bigger coats also appear as travel events. Stash surplus in the Bronx.</p>';
+
+    openModal('🧥 Your Coat', html,
+      '<button type="button" class="ghost block" id="modal-cancel">Close</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+  }
+
+  function openHowTo() {
+    openModal('How to Play',
+      '<p class="event-text">' +
+        '<strong>Goal:</strong> Survive 30 days, pay the shark, maximize net worth (cash + bank − debt).<br><br>' +
+        '<strong>Jet</strong> between boroughs (1 day). Prices reshuffle. Debt ~10%/day. Bank ~5%/day.<br><br>' +
+        '<strong>Bronx only:</strong> Loan Shark (pay/borrow), Bank, Stash.<br><br>' +
+        '<strong>Events:</strong> cops, muggings, coats, guns, Mom\'s brownies, market floods & busts.<br><br>' +
+        'Guns take 5 slots each — fight Hardass if you dare.' +
+      '</p>',
+      '<button type="button" class="primary block" id="modal-cancel">Got it</button>' +
+      '<button type="button" class="ghost block" id="btn-replay-intro">Replay Intro</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('btn-replay-intro').onclick = () => {
+      closeModal();
+      unlockAudio();
+      playIntro(() => { showScreen('title'); updateContinueBtn(); });
+    };
+  }
+
+  function confirmCashOut() {
+    modalMode = 'confirm';
+    openModal('🏁 Cash Out?',
+      '<p class="event-text">End early and score net worth now? (Cash + Bank − Debt)</p>' +
+      '<div class="trade-summary">Current net: <strong>' + fmt(netWorth(state)) + '</strong></div>',
+      '<button type="button" class="danger block" id="confirm-yes">Yes, cash out</button>' +
+      '<button type="button" class="ghost block" id="modal-cancel">Keep playing</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('confirm-yes').onclick = () => { closeModal(); endGame('quit'); };
+  }
+
+  function confirmNewGame() {
+    if (!load()) {
+      startNewGameWithIntro();
+      return;
+    }
+    modalMode = 'confirm';
+    showScreen('title');
+    openModal('New Game?',
+      '<p class="event-text">This will erase your current saved hustle. You sure?</p>',
+      '<button type="button" class="danger block" id="confirm-yes">Erase & start fresh</button>' +
+      '<button type="button" class="ghost block" id="modal-cancel">Cancel</button>'
+    );
+    $('modal-cancel').onclick = closeModal;
+    $('confirm-yes').onclick = () => { closeModal(); startNewGameWithIntro(); };
+  }
+
+  function endGame(reason) {
+    if (!state) return;
+    state.over = true;
+    state.endReason = reason;
+    const net = netWorth(state);
+    saveScore(net, reason);
+    try { localStorage.removeItem(STORAGE_KEY); } catch (e) {}
+    try { localStorage.removeItem('streetHustle_v1'); } catch (e) {}
+    try { localStorage.removeItem('streetHustle_v2'); } catch (e) {}
+    updateContinueBtn();
+
+    let quip = END_QUIPS[END_QUIPS.length - 1];
+    for (const q of END_QUIPS) {
+      if (net >= q.min) { quip = q; break; }
+    }
+
+    const reasonNote = {
+      time: 'Survived 30 days',
+      quit: 'Cashed out early',
+      broke: 'Bankrupt',
+      dead: 'Hardass won'
+    };
+
+    $('end-emoji').textContent = quip.emoji;
+    $('end-title').textContent = reason === 'dead' ? 'BUSTED' : quip.title;
+    $('end-net').textContent = fmt(net);
+    $('end-net').style.color = net >= 0 ? 'var(--accent)' : 'var(--danger)';
+    $('end-detail').textContent = 'Net (cash + bank − debt) · Day ' +
+      Math.min(state.day, MAX_DAYS) + ' · ' + (reasonNote[reason] || 'Ended');
+    $('end-flavor').textContent = reason === 'dead'
+      ? 'Officer Hardass sends his regards. Pixel funeral, closed casket.'
+      : quip.line;
+
+    showScreen('end');
+    state = null;
+  }
+
+  function showScores(from) {
+    scoresReturnScreen = from || 'title';
+    const scores = loadScores();
+    const list = $('scores-list');
+    const empty = $('scores-empty');
+    list.innerHTML = '';
+    if (!scores.length) {
+      empty.style.display = 'block';
+    } else {
+      empty.style.display = 'none';
+      scores.forEach((s, i) => {
+        const li = document.createElement('li');
+        const d = new Date(s.date);
+        const dateStr = (d.getMonth() + 1) + '/' + d.getDate() + '/' + String(d.getFullYear()).slice(2);
+        li.innerHTML = '<span><span class="rank">#' + (i + 1) + '</span> ' + dateStr +
+          ' · ' + (s.reason || '') + '</span><span class="score-val">' + fmt(s.score) + '</span>';
+        list.appendChild(li);
+      });
+    }
+    showScreen('scores');
+  }
+
+  /* ========== Cinematic intro + chiptune audio ========== */
+  const MUTE_KEY = 'streetHustle_mute';
+  let audioCtx = null;
+  let muted = false;
+  try { muted = localStorage.getItem(MUTE_KEY) === '1'; } catch (e) {}
+  let introActive = false;
+  let introSkipRequested = false;
+  let introRaf = 0;
+  let introSceneIdx = 0;
+  let introSceneStart = 0;
+  let introOnDone = null;
+  let introLastTap = 0;
+  let musicTimer = null;
+  let musicStep = 0;
+
+  function setMuted(v) {
+    muted = !!v;
+    try { localStorage.setItem(MUTE_KEY, muted ? '1' : '0'); } catch (e) {}
+    updateMuteUI();
+    if (muted) stopMusic();
+  }
+
+  function updateMuteUI() {
+    const label = muted ? '🔇' : '🔊';
+    const titleMute = $('btn-mute-title');
+    if (titleMute) titleMute.textContent = label;
+    const introMute = $('intro-mute');
+    if (introMute) introMute.textContent = label;
+  }
+
+  function unlockAudio() {
+    try {
+      const AC = window.AudioContext || window.webkitAudioContext;
+      if (!AC) return null;
+      if (!audioCtx) audioCtx = new AC();
+      if (audioCtx.state === 'suspended') audioCtx.resume();
+      return audioCtx;
+    } catch (e) {
+      return null;
+    }
+  }
+
+  function playTone(freq, dur, type, vol, when) {
+    if (muted) return;
+    const ctx = unlockAudio();
+    if (!ctx) return;
+    try {
+      const t0 = (when != null ? when : 0) + ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = type || 'square';
+      osc.frequency.setValueAtTime(freq, t0);
+      const v = (vol == null ? 0.08 : vol);
+      gain.gain.setValueAtTime(0.0001, t0);
+      gain.gain.exponentialRampToValueAtTime(v, t0 + 0.015);
+      gain.gain.exponentialRampToValueAtTime(0.0001, t0 + Math.max(0.03, dur));
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(t0);
+      osc.stop(t0 + dur + 0.02);
+    } catch (e) {}
+  }
+
+  function playNoise(dur, vol) {
+    if (muted) return;
+    const ctx = unlockAudio();
+    if (!ctx) return;
+    try {
+      const n = Math.max(1, Math.floor(ctx.sampleRate * dur));
+      const buf = ctx.createBuffer(1, n, ctx.sampleRate);
+      const data = buf.getChannelData(0);
+      for (let i = 0; i < n; i++) data[i] = (Math.random() * 2 - 1) * (1 - i / n);
+      const src = ctx.createBufferSource();
+      src.buffer = buf;
+      const filter = ctx.createBiquadFilter();
+      filter.type = 'bandpass';
+      filter.frequency.value = 1200;
+      filter.Q.value = 0.8;
+      const gain = ctx.createGain();
+      const t0 = ctx.currentTime;
+      const v = vol == null ? 0.06 : vol;
+      gain.gain.setValueAtTime(v, t0);
+      gain.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+      src.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+      src.start(t0);
+      src.stop(t0 + dur + 0.01);
+    } catch (e) {}
+  }
+
+  function stingTitle() {
+    if (muted) return;
+    const notes = [220, 277, 330, 440, 554, 660];
+    notes.forEach((f, i) => playTone(f, 0.18, 'square', 0.07, i * 0.05));
+    playTone(880, 0.45, 'triangle', 0.09, 0.32);
+    playNoise(0.12, 0.05);
+  }
+
+  function stingScene() {
+    playTone(165, 0.12, 'triangle', 0.06, 0);
+    playTone(247, 0.18, 'square', 0.05, 0.08);
+  }
+
+  function stingWhoosh() {
+    playNoise(0.25, 0.07);
+    playTone(90, 0.3, 'sawtooth', 0.04, 0);
+  }
+
+  function stopMusic() {
+    if (musicTimer) {
+      clearInterval(musicTimer);
+      musicTimer = null;
+    }
+  }
+
+  function startIntroMusic() {
+    stopMusic();
+    if (muted) return;
+    unlockAudio();
+    const bass = [110, 110, 130.81, 98, 110, 110, 146.83, 82.41];
+    const lead = [220, 261.63, 329.63, 392, 349.23, 329.63, 261.63, 246.94];
+    musicStep = 0;
+    musicTimer = setInterval(() => {
+      if (!introActive || muted) return;
+      const i = musicStep % 8;
+      playTone(bass[i], 0.14, 'triangle', 0.045, 0);
+      if (musicStep % 2 === 0) playTone(lead[i], 0.1, 'square', 0.035, 0.02);
+      if (musicStep % 4 === 0) playNoise(0.04, 0.025);
+      musicStep++;
+    }, 180);
+  }
+
+  const INTRO_SCENES = [
+    {
+      id: 'cold',
+      hold: 3200,
+      caption: 'NEW YORK CITY\nNight. Neon. Bad decisions.',
+      sub: '',
+      title: false,
+      sfx: 'whoosh',
+      mode: 'city'
+    },
+    {
+      id: 'debt',
+      hold: 4200,
+      caption: 'You owe the loan shark $5,500.\nPocket change: $2,000.\nThe clock? 30 days.',
+      sub: '',
+      title: false,
+      sfx: 'scene',
+      mode: 'subway'
+    },
+    {
+      id: 'hustle',
+      hold: 4200,
+      caption: "Six borough spots.\nOne trenchcoat.\nBuy low. Sell high.\nDon't explain the coat.",
+      sub: '',
+      title: false,
+      sfx: 'scene',
+      mode: 'map'
+    },
+    {
+      id: 'title',
+      hold: 3800,
+      caption: 'STREET HUSTLE',
+      sub: 'A cheap but charming arcade fantasy',
+      title: true,
+      sfx: 'title',
+      mode: 'title'
+    }
+  ];
+
+  function drawIntroFrame(ctx, w, h, scene, localT, globalT) {
+    const mode = scene ? scene.mode : 'city';
+    ctx.fillStyle = '#050810';
+    ctx.fillRect(0, 0, w, h);
+
+    ctx.fillStyle = '#c8e6c8';
+    for (let i = 0; i < 48; i++) {
+      const sx = ((i * 73 + globalT * (0.02 + (i % 5) * 0.01)) % (w + 4));
+      const sy = (i * 37) % (h * 0.55);
+      const sz = (i % 3 === 0) ? 2 : 1;
+      ctx.globalAlpha = 0.35 + (i % 5) * 0.1;
+      ctx.fillRect(sx, sy, sz, sz);
+    }
+    ctx.globalAlpha = 1;
+
+    ctx.fillStyle = '#e8e0b0';
+    ctx.beginPath();
+    ctx.arc(w * 0.82, h * 0.18, 10, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillStyle = '#050810';
+    ctx.beginPath();
+    ctx.arc(w * 0.85, h * 0.16, 8, 0, Math.PI * 2);
+    ctx.fill();
+
+    const baseY = h * 0.72;
+    const buildings = [
+      [0, 0.45, 0.08], [0.08, 0.55, 0.1], [0.18, 0.38, 0.07],
+      [0.25, 0.62, 0.12], [0.37, 0.48, 0.09], [0.46, 0.7, 0.11],
+      [0.57, 0.42, 0.08], [0.65, 0.58, 0.1], [0.75, 0.5, 0.09],
+      [0.84, 0.65, 0.16]
+    ];
+    buildings.forEach((b, bi) => {
+      const bx = b[0] * w;
+      const bh = b[1] * h * 0.55;
+      const bw = b[2] * w;
+      ctx.fillStyle = bi % 2 ? '#121a28' : '#0c1420';
+      ctx.fillRect(bx, baseY - bh, bw, bh + (h - baseY));
+      for (let wy = baseY - bh + 4; wy < baseY - 4; wy += 5) {
+        for (let wx = bx + 2; wx < bx + bw - 2; wx += 4) {
+          if (((wx + wy + Math.floor(globalT / 200)) % 7) !== 0) {
+            ctx.fillStyle = (wx + wy) % 3 ? '#ffdc64' : '#66bbff';
+            ctx.globalAlpha = 0.55 + 0.35 * Math.sin((globalT + wx * 3) * 0.004);
+            ctx.fillRect(wx, wy, 2, 2);
+          }
+        }
+      }
+      ctx.globalAlpha = 1;
+    });
+
+    const pulse = 0.6 + 0.4 * Math.sin(globalT * 0.006);
+    ctx.fillStyle = 'rgba(255,80,180,' + pulse + ')';
+    ctx.fillRect(w * 0.28, baseY - h * 0.34, 18, 3);
+    ctx.fillStyle = 'rgba(93,255,93,' + (1 - pulse * 0.4) + ')';
+    ctx.fillRect(w * 0.55, baseY - h * 0.38, 22, 3);
+
+    ctx.fillStyle = '#1a1820';
+    ctx.fillRect(0, baseY, w, h - baseY);
+    ctx.strokeStyle = 'rgba(255,204,68,0.35)';
+    ctx.setLineDash([8, 8]);
+    ctx.beginPath();
+    ctx.moveTo(0, baseY + (h - baseY) * 0.45);
+    ctx.lineTo(w, baseY + (h - baseY) * 0.45);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    if (mode === 'subway' || mode === 'map') {
+      const trainX = ((globalT * 0.12) % (w + 80)) - 40;
+      ctx.fillStyle = '#1c2838';
+      ctx.fillRect(trainX, baseY - 28, 70, 26);
+      ctx.fillStyle = '#66bbff';
+      for (let i = 0; i < 5; i++) ctx.fillRect(trainX + 6 + i * 12, baseY - 22, 8, 10);
+      ctx.fillStyle = '#ff5555';
+      ctx.fillRect(trainX + 64, baseY - 18, 4, 4);
+    }
+
+    if (mode === 'map') {
+      const spots = [
+        [0.2, 0.35], [0.35, 0.28], [0.5, 0.32],
+        [0.65, 0.27], [0.78, 0.36], [0.42, 0.42]
+      ];
+      spots.forEach((p, i) => {
+        const blink = ((Math.floor(globalT / 250) + i) % 2) === 0;
+        ctx.fillStyle = blink ? '#5dff5d' : '#2a8a2a';
+        ctx.fillRect(p[0] * w - 2, p[1] * h - 2, 4, 4);
+        if (i > 0) {
+          ctx.strokeStyle = 'rgba(93,255,93,0.25)';
+          ctx.beginPath();
+          ctx.moveTo(spots[i - 1][0] * w, spots[i - 1][1] * h);
+          ctx.lineTo(p[0] * w, p[1] * h);
+          ctx.stroke();
+        }
+      });
+    }
+
+    const zoom = mode === 'title' ? 1.35 + Math.min(0.25, localT / 2000) : (mode === 'cold' ? 0.9 + localT / 8000 : 1);
+    const figX = w * 0.5;
+    const figY = baseY + 4;
+    ctx.save();
+    ctx.translate(figX, figY);
+    ctx.scale(zoom, zoom);
+    ctx.fillStyle = '#2a2438';
+    ctx.beginPath();
+    ctx.moveTo(-10, -38);
+    ctx.lineTo(10, -38);
+    ctx.lineTo(16, -2);
+    ctx.lineTo(12, 0);
+    ctx.lineTo(-12, 0);
+    ctx.lineTo(-16, -2);
+    ctx.closePath();
+    ctx.fill();
+    ctx.fillStyle = '#c8a078';
+    ctx.fillRect(-5, -48, 10, 10);
+    ctx.fillStyle = '#1a1520';
+    ctx.fillRect(-6, -50, 12, 4);
+    ctx.fillRect(-8, -47, 16, 2);
+    if (mode !== 'cold' || localT > 800) {
+      ctx.fillStyle = '#5dff5d';
+      ctx.font = 'bold 12px monospace';
+      ctx.fillText(String.fromCharCode(36), 14, -30);
+    }
+    ctx.restore();
+
+    if (mode === 'title' && localT < 200) {
+      ctx.fillStyle = 'rgba(93,255,93,' + (1 - localT / 200) * 0.5 + ')';
+      ctx.fillRect(0, 0, w, h);
+    }
+  }
+
+  function showIntroCaption(scene) {
+    const cap = $('intro-caption');
+    const sub = $('intro-sub');
+    cap.classList.remove('show', 'title-smash');
+    sub.classList.remove('show');
+    void cap.offsetWidth;
+    cap.textContent = scene.caption;
+    if (scene.title) cap.classList.add('title-smash');
+    cap.classList.add('show');
+    if (scene.sub) {
+      sub.textContent = scene.sub;
+      sub.classList.add('show');
+    } else {
+      sub.textContent = '';
+    }
+  }
+
+  function playSceneSfx(sfx) {
+    if (sfx === 'whoosh') stingWhoosh();
+    else if (sfx === 'title') stingTitle();
+    else stingScene();
+  }
+
+  function goIntroScene(idx) {
+    if (!introActive) return;
+    if (idx >= INTRO_SCENES.length) {
+      finishIntro();
+      return;
+    }
+    introSceneIdx = idx;
+    introSceneStart = performance.now();
+    const scene = INTRO_SCENES[idx];
+    showIntroCaption(scene);
+    playSceneSfx(scene.sfx);
+    $('intro-hint').textContent = idx === INTRO_SCENES.length - 1
+      ? 'TAP TO BEGIN'
+      : 'TAP TO ADVANCE';
+  }
+
+  function introLoop(now) {
+    if (!introActive) return;
+    const canvas = $('intro-canvas');
+    if (!canvas) return;
+    const ctx = canvas.getContext('2d');
+    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    const rect = canvas.getBoundingClientRect();
+    const cw = Math.max(160, Math.floor(rect.width));
+    const ch = Math.max(90, Math.floor(rect.height));
+    if (canvas.width !== Math.floor(cw * dpr) || canvas.height !== Math.floor(ch * dpr)) {
+      canvas.width = Math.floor(cw * dpr);
+      canvas.height = Math.floor(ch * dpr);
+    }
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const scene = INTRO_SCENES[introSceneIdx];
+    const localT = now - introSceneStart;
+    drawIntroFrame(ctx, cw, ch, scene, localT, now);
+
+    if (!introSkipRequested && scene && localT >= scene.hold) {
+      goIntroScene(introSceneIdx + 1);
+    }
+    introRaf = requestAnimationFrame(introLoop);
+  }
+
+  function finishIntro() {
+    if (!introActive) return;
+    introActive = false;
+    introSkipRequested = false;
+    stopMusic();
+    if (introRaf) cancelAnimationFrame(introRaf);
+    introRaf = 0;
+    const overlay = $('intro-cinematic');
+    overlay.classList.add('fading');
+    const done = introOnDone;
+    introOnDone = null;
+    setTimeout(() => {
+      overlay.classList.remove('active', 'fading');
+      overlay.setAttribute('aria-hidden', 'true');
+      if (typeof done === 'function') done();
+    }, 480);
+  }
+
+  function skipIntro() {
+    if (!introActive) return;
+    introSkipRequested = true;
+    playNoise(0.08, 0.04);
+    finishIntro();
+  }
+
+  function advanceIntro() {
+    if (!introActive) return;
+    const now = performance.now();
+    if (now - introLastTap < 280) return;
+    introLastTap = now;
+    goIntroScene(introSceneIdx + 1);
+  }
+
+  function playIntro(onDone) {
+    unlockAudio();
+    introOnDone = onDone;
+    introActive = true;
+    introSkipRequested = false;
+    introSceneIdx = 0;
+    introLastTap = 0;
+    const overlay = $('intro-cinematic');
+    overlay.classList.remove('fading');
+    overlay.classList.add('active');
+    overlay.setAttribute('aria-hidden', 'false');
+    updateMuteUI();
+    startIntroMusic();
+    goIntroScene(0);
+    if (introRaf) cancelAnimationFrame(introRaf);
+    introRaf = requestAnimationFrame(introLoop);
+  }
+
+  function startNewGameWithIntro() {
+    unlockAudio();
+    playIntro(function () { newGame(); });
+  }
+
+
+  function wire() {
+    updateMuteUI();
+    const titleMute = $('btn-mute-title');
+    if (titleMute) {
+      titleMute.onclick = () => {
+        unlockAudio();
+        setMuted(!muted);
+        if (!muted) playTone(440, 0.08, 'square', 0.06);
+      };
+    }
+    const introSkip = $('intro-skip');
+    const introMuteBtn = $('intro-mute');
+    const introRoot = $('intro-cinematic');
+    if (introSkip) introSkip.onclick = (e) => { e.stopPropagation(); skipIntro(); };
+    if (introMuteBtn) {
+      introMuteBtn.onclick = (e) => {
+        e.stopPropagation();
+        setMuted(!muted);
+        if (!muted) { unlockAudio(); startIntroMusic(); playTone(440, 0.08, 'square', 0.06); }
+      };
+    }
+    if (introRoot) {
+      introRoot.addEventListener('click', (e) => {
+        if (e.target.closest('button')) return;
+        advanceIntro();
+      });
+    }
+
+    $('btn-new-game').onclick = confirmNewGame;
+    $('btn-continue').onclick = continueGame;
+    $('btn-high-scores').onclick = () => showScores('title');
+    $('btn-how-to').onclick = openHowTo;
+    const howGame = $('btn-how-to-game');
+    if (howGame) howGame.onclick = openHowTo;
+    $('btn-scores-back').onclick = () => showScreen(scoresReturnScreen === 'end' ? 'end' : 'title');
+
+    function toggleRumorBanner() {
+      if (!state || !state.rumor) return;
+      state.rumorExpanded = !state.rumorExpanded;
+      save();
+      const banner = $('rumor-banner');
+      banner.classList.toggle('expanded', state.rumorExpanded);
+      banner.setAttribute('aria-expanded', state.rumorExpanded ? 'true' : 'false');
+    }
+    $('rumor-banner').onclick = toggleRumorBanner;
+    $('rumor-banner').onkeydown = (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        toggleRumorBanner();
+      }
+    };
+
+    document.querySelectorAll('.top-tab').forEach(btn => {
+      btn.onclick = () => setTab(btn.getAttribute('data-tab'));
+    });
+    document.querySelectorAll('[data-goto]').forEach(btn => {
+      btn.onclick = () => setTab(btn.getAttribute('data-goto'));
+    });
+
+    const viewMk = $('btn-view-markets');
+    if (viewMk) viewMk.onclick = () => setTab('deal');
+    const myEmp = $('btn-my-empire');
+    if (myEmp) myEmp.onclick = () => setTab('empire');
+    const cashPlus = $('btn-cash-plus');
+    if (cashPlus) cashPlus.onclick = () => setTab('empire');
+    const tileCash = $('btn-tile-cashout');
+    if (tileCash) tileCash.onclick = confirmCashOut;
+    const cityEvent = $('btn-city-event');
+    if (cityEvent) cityEvent.onclick = () => {
+      if (!state || !state.rumor) return;
+      state.rumorExpanded = true;
+      save();
+      renderMarket();
+      const b = $('rumor-banner');
+      if (b) b.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    };
+    const jetBronx = $('btn-jet-bronx');
+    if (jetBronx) jetBronx.onclick = () => {
+      if (state && state.location !== HOME) openTravel();
+    };
+
+    $('btn-travel').onclick = openTravel;
+    $('btn-bronx').onclick = openShark;
+    const bankSvc = $('btn-bank-svc');
+    if (bankSvc) bankSvc.onclick = openBank;
+    $('btn-stash-bar').onclick = openStash;
+    $('btn-quit-game').onclick = confirmCashOut;
+    $('btn-play-again').onclick = () => { startNewGameWithIntro(); };
+    $('btn-end-scores').onclick = () => showScores('end');
+    $('btn-end-title').onclick = () => showScreen('title');
+
+    function onTradeClick(e) {
+      const btn = e.target.closest('button[data-act]');
+      if (!btn || btn.disabled) return;
+      openTrade(btn.getAttribute('data-id'), btn.getAttribute('data-act'));
+    }
+    $('product-list').addEventListener('click', onTradeClick);
+    const cityList = $('city-market-list');
+    if (cityList) {
+      cityList.addEventListener('click', (e) => {
+        const row = e.target.closest('.mkt-row');
+        if (row) setTab('deal');
+      });
+    }
+
+    document.addEventListener('dblclick', (e) => {
+      if (e.target.closest('button')) e.preventDefault();
+    }, { passive: false });
+  }
+
+  wire();
+  updateContinueBtn();
+})();
+
+</script>
+</body>
+</html>
