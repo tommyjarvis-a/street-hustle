@@ -56,7 +56,6 @@
 
 html, body {
   height: 100%;
-  height: 100dvh;
   background: var(--bg);
   color: var(--text);
   font-family: var(--sans);
@@ -324,6 +323,17 @@ button.block { width: 100%; display: block; }
 }
 #screen-game .top-tab.active { border-top-color: var(--accent); }
 #screen-game .tab-panel .scroll-area { padding-bottom: 12px; }
+/* Full-bleed iOS standalone: pin app to the whole screen */
+html { height: 100vh; }
+body {
+  position: fixed;
+  top: 0; bottom: 0;
+  left: 0; right: 0;
+  height: auto;
+  min-height: 100vh;
+}
+#screen-game .top-tabs { padding-bottom: max(2px, calc(var(--safe-b) - 18px)); }
+
 
 
 .tab-panel {
