@@ -305,6 +305,24 @@ button.block { width: 100%; display: block; }
   display: none;
 }
 .top-tab .badge-dot.on { display: block; }
+/* Bottom tab bar (moved from top) */
+#screen-game .top-tabs {
+  order: 99;
+  border-bottom: none;
+  border-top: 1px solid var(--border);
+  padding: 2px 6px var(--safe-b);
+  background: rgba(13,13,15,0.96);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+#screen-game .top-tab {
+  border-bottom: none;
+  border-top: 2px solid transparent;
+  padding: 8px 2px 6px;
+}
+#screen-game .top-tab.active { border-top-color: var(--accent); }
+#screen-game .tab-panel .scroll-area { padding-bottom: 12px; }
+
 
 .tab-panel {
   display: none;
