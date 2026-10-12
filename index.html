@@ -333,6 +333,17 @@ body {
   min-height: 100vh;
 }
 #screen-game .top-tabs { padding-bottom: max(2px, calc(var(--safe-b) - 18px)); }
+
+/* Home-button navigation (no tab bar) */
+#screen-game .top-tabs { display: none !important; }
+.home-btn { padding: 0; min-height: 36px; min-width: 36px; cursor: pointer; font-size: 1.1rem; }
+.home-btn:active { transform: scale(0.94); }
+.action-tile.blue { border-color: rgba(77,163,255,0.35); box-shadow: inset 0 0 20px rgba(77,163,255,0.06); }
+.action-tile.blue .tile-title { color: #4da3ff; }
+.action-tile.wide { grid-column: 1 / -1; min-height: 64px; }
+.badge-dot.tile-dot { position: absolute; top: 10px; right: 10px; width: 9px; height: 9px; border-radius: 50%; background: var(--danger); box-shadow: 0 0 6px var(--danger); display: none; }
+.badge-dot.tile-dot.on { display: block; }
+#screen-game .tab-panel .scroll-area { padding-bottom: calc(16px + var(--safe-b)); }
 /* Solid, taller header */
 body { background: #000; }
 #screen-game .game-header {
@@ -960,7 +971,7 @@ body { background: #000; }
   <div id="screen-game" class="screen" role="main">
     <header class="game-header">
       <div class="brand">
-        <div class="brand-mark" aria-hidden="true">👑</div>
+        <button type="button" class="brand-mark home-btn" id="btn-home" aria-label="Home" title="Home">🏠</button>
         <div class="brand-text">
           <div class="brand-title">STREET HUSTLE</div>
           <div class="brand-tag">Build · Deal · Dominate</div>
@@ -994,7 +1005,7 @@ body { background: #000; }
       </button>
       <button type="button" class="top-tab" role="tab" data-tab="wanted" aria-selected="false" id="tabbtn-wanted">
         <span class="tab-ico" aria-hidden="true">🚔</span>Wanted
-        <span class="badge-dot" id="wanted-dot" aria-hidden="true"></span>
+        <span class="badge-dot" aria-hidden="true"></span>
       </button>
     </nav>
 
@@ -1047,7 +1058,13 @@ body { background: #000; }
             <span class="tile-title">Empire</span>
             <span class="tile-desc">Bank, shark &amp; Bronx stash.</span>
           </button>
-          <button type="button" class="action-tile red" id="btn-tile-cashout">
+          <button type="button" class="action-tile blue" data-goto="wanted" style="position:relative">
+            <span class="tile-ico">🚔</span>
+            <span class="tile-title">Wanted</span>
+            <span class="tile-desc">Your heat &amp; how to cool off.</span>
+            <span class="badge-dot tile-dot" id="wanted-dot" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="action-tile red wide" id="btn-tile-cashout">
             <span class="tile-ico">🎯</span>
             <span class="tile-title">Cash Out</span>
             <span class="tile-desc">End early. Score your net worth.</span>
@@ -3459,6 +3476,8 @@ body { background: #000; }
 
     const viewMk = $('btn-view-markets');
     if (viewMk) viewMk.onclick = () => setTab('deal');
+    const homeBtn = $('btn-home');
+    if (homeBtn) homeBtn.onclick = () => setTab('city');
     const myEmp = $('btn-my-empire');
     if (myEmp) myEmp.onclick = () => setTab('empire');
     const cashPlus = $('btn-cash-plus');
